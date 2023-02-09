@@ -1,0 +1,90 @@
+#about {
+    background-color: var(--secondary-color-g);
+    height: 640px;
+    margin-top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--white);
+}
+
+#about-left {
+    padding-right: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#about-right {
+    padding-left: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* spinning cube + text overlay */
+#text-canvas-overlay {
+    height: 320px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#cube {
+    position: absolute;
+}
+
+#hi-overlay {
+    position: absolute;
+    z-index: 1;
+    font-size: 48px;
+}
+
+/* description */
+#about-desc {
+    width: 640px;
+    margin: auto;
+}
+
+#roles {
+    height: 1.2em;
+}
+
+@keyframes blinking {
+    0% {
+      opacity: 0;
+    }
+  
+    100% {
+      opacity: 1;
+    }
+}
+  
+.line-blink {
+    animation: blinking 0.7s  infinite;
+    background-color: #ffffff;
+    padding: 0 3px;
+    margin: 0 5px;
+}
+
+/* links */
+#links {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+#links img {
+    height: 2em;
+    width: 2em;
+    padding: 0 1em 0 0;
+}
+
+/* about me */
+#about-right img {
+    height: 380px;
+    width: auto;
+    border-radius: 25px;
+}

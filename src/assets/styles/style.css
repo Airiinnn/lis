@@ -1,0 +1,44 @@
+/* GLOBAL */
+:root {
+    --primary-color: #f1beb0;
+    --secondary-color-g: #7cc1ac;
+    --secondary-color-b: #93dae3;
+    --black: #191919;
+    --white: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: var(--primary-color);
+    font-size: 40px;
+}
+
+h2 {
+    color: var(--white);
+}
+
+p {
+    margin: 0;
+}
+
+.p1 {
+    font-size: 40px;
+    font-weight: bold;
+    color: var(--primary-color);
+}
+
+.p2 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.p3 {
+    margin: 0.5em 0;
+}
