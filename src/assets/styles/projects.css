@@ -1,0 +1,51 @@
+#projects {
+    background-color: var(--black);
+    height: 2000px;
+}
+
+#project-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.project-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 1em;
+    width: 70%;
+    border-radius: 15px;
+    background-color: var(--gray);
+    box-shadow: 0 0 2px var(--primary-color);
+}
+
+.project-preview {
+    height: 360px;
+    width: 360px;
+}
+
+.img-left {
+    border-radius: 0 15px 15px 0;
+}
+
+.img-right {
+    border-radius: 15px 0 0 15px;
+}
+
+.project-desc {
+    flex-grow: 5;
+    position: relative;
+    height: 300px;
+    padding: 18px 30px;
+}
+
+.project-links {
+    padding-top: 1em;
+}
+
+.tech-used {
+    padding-right: inherit;
+    position: absolute;
+    bottom: 0;
+}

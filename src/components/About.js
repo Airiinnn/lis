@@ -1,8 +1,8 @@
 import { useEffect } from "react";
 import "../assets/styles/about.css"
-import iconGitHub from "../assets/images/github-light.png";
-import iconLinkedIn from "../assets/images/linkedin-light.png";
-import iconMail from "../assets/images/mail-light.png";
+import iconGitHub from "../assets/images/icons/github-light.png";
+import iconLinkedIn from "../assets/images/icons/linkedin-light.png";
+import iconMail from "../assets/images/icons/mail-light.png";
 import imgAboutMe from "../assets/images/about-me.png";
 
 export default function About() {
@@ -156,18 +156,18 @@ export default function About() {
             <div id="about-left">
                 <div id="text-canvas-overlay">
                     <canvas id="cube"></canvas>
-                    <h1 id="hi-overlay">hihi</h1>
+                    <p id="hi-overlay">lis</p>
                 </div>
 
                 <div id="about-desc">
-                    <p>I am</p>
-                    <p class="p1">Alexander Liswandy</p>
-                    <p class="p2"><span id="roles"></span><span class="line-blink"></span></p>
-                    <p class="p3">Passionate and self-driven programming & tech enthusiast. Started coding in 2019. Experience in Full Stack Web Development and Competitive Programming Algorithms. Currently exploring Path Finding Algorithms and Computer Vision. Looking to gain knowledge and experience in DevOps and ML.</p>
+                    <p>Hi! I am</p>
+                    <p className="p1">Alexander Liswandy</p>
+                    <p className="p2"><span id="roles"></span><span className="line-blink"></span></p>
+                    <p className="p3">Passionate and self-driven programming & tech enthusiast. Started coding in 2019. Experience in Full Stack Web Development and Competitive Programming Algorithms. Currently exploring Path Finding Algorithms and Computer Vision. Looking to gain knowledge and experience in DevOps and ML.</p>
                     <div id="links">
-                        <a href="https://github.com/Airiinnn"><img src={iconGitHub} alt="GitHub" /></a>
-                        <a href="https://www.linkedin.com/in/alexanderliswandy/"><img src={iconLinkedIn} alt="LinkedIn" /></a>
-                        <a href="mailto:alex.liswandy@hotmail.com"><img src={iconMail} alt="Mail" /></a>
+                        <a href="https://github.com/Airiinnn" className="a-icon"><img src={iconGitHub} alt="GitHub" className="icon" /></a>
+                        <a href="https://www.linkedin.com/in/alexanderliswandy/" className="a-icon"><img src={iconLinkedIn} alt="LinkedIn" className="icon" /></a>
+                        <a href="mailto:alex.liswandy@hotmail.com" className="a-icon"><img src={iconMail} alt="Mail" className="icon" /></a>
                     </div>
                 </div>
             </div>

@@ -1,7 +1,8 @@
 #about {
-    background-color: var(--secondary-color-g);
-    height: 640px;
-    margin-top: 0;
+    height: 100vh;
+    min-height: 800px;
+    background-color: var(--secondary-color);
+    padding: 32px 0;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -14,6 +15,16 @@
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    animation: slideInFromLeft 1s ease;
+}
+
+@keyframes slideInFromLeft {
+    0% {
+        transform: translateX(-100%);
+    }
+    100% {
+        transform: translateX(0);
+    }
 }
 
 #about-right {
@@ -40,12 +51,12 @@
     position: absolute;
     z-index: 1;
     font-size: 48px;
+    color: var(--primary-color);
 }
 
 /* description */
 #about-desc {
-    width: 640px;
-    margin: auto;
+    margin: 0 20%;
 }
 
 #roles {
@@ -76,15 +87,29 @@
     align-items: center;
 }
 
-#links img {
-    height: 2em;
-    width: 2em;
-    padding: 0 1em 0 0;
-}
-
 /* about me */
 #about-right img {
-    height: 380px;
-    width: auto;
+    width: 90%;
     border-radius: 25px;
+    box-shadow: 0 0 2px var(--gray);
+    -webkit-animation: flip 1s ease;
+    animation: flip 1s ease;
+}
+
+@-webkit-keyframes flip {
+    0% {
+        transform: rotateY(90deg);
+    }
+    100% {
+        transform: rotateY(0deg);
+    }
+}
+
+@keyframes flip {
+    0% {
+        transform: rotateY(90deg);
+    }
+    100% {
+        transform: rotateY(0deg);
+    }
 }
