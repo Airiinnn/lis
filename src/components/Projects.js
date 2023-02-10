@@ -1,8 +1,10 @@
 import "../assets/styles/projects.css"
-import { projects } from "../data.js";
+
 import imgProjectNavex from "../assets/images/projects/projectnavex.png";
+import iconCube from "../assets/images/icons/cube-light.png"
 import iconWebsite from "../assets/images/icons/worldwide-light.png"
 import iconGitHub from "../assets/images/icons/github-light.png"
+import { projects } from "../data.js";
 
 function Project({index, title, subtitle, website, github, description, tech, img}) {
     let websiteHtml = "";
@@ -35,7 +37,7 @@ function Project({index, title, subtitle, website, github, description, tech, im
                 
                 <img className="project-preview img-left" src={img} alt={title} />
             </div>
-        )
+        );
     } else {
         // odd-indexed project, img on the left
         return (
@@ -54,15 +56,20 @@ function Project({index, title, subtitle, website, github, description, tech, im
                     <p className="tech-used">Technologies used: <span className="primary">{tech}</span></p>
                 </div>
             </div>
-        )
+        );
     }
 }
 
 export default function Projects() {
     return (
         <section id="projects">
-            <h1 className="center">Projects</h1>
-            <p className="p3 center">Programming projects that I have worked on over the years...</p>
+            <div className="section-header">
+                <div>
+                    <img className="section-cube" src={iconCube} alt="cube" /><span><img className="section-cube" src={iconCube} alt="cube" /></span>
+                </div>
+                <h1 className="center">Projects</h1>
+                <p className="p3 center">Programming projects that I have worked on over the years...</p>
+            </div>
             
             <div id="project-list">
                 {projects.map((project, index) => (

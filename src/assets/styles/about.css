@@ -10,7 +10,6 @@
 }
 
 #about-left {
-    padding-right: 40px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -28,7 +27,6 @@
 }
 
 #about-right {
-    padding-left: 40px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -56,7 +54,7 @@
 
 /* description */
 #about-desc {
-    margin: 0 20%;
+    margin: 0 5% 0 20%;
 }
 
 #roles {

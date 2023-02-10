@@ -1,0 +1,35 @@
+#skills {
+    background-color: var(--black);
+    padding: 100px 0 50px;
+}
+
+#skills-list {
+    width: 70vw;
+    margin: 0 auto;
+    padding-top: 1em;
+}
+
+.swiper-button-prev {
+    color: var(--primary-color);
+}
+
+.swiper-button-next {
+    color: var(--primary-color);
+}
+
+.skill-card {
+    margin: 1em auto;
+    height: 180px;
+    width: 75%;
+    border-radius: 15px;
+    background-color: var(--secondary-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 4px #000000;
+}
+
+.skill-icon {
+    padding-bottom: 0.5em;
+}

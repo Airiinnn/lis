@@ -1,5 +1,7 @@
 import { useEffect } from "react";
+
 import "../assets/styles/about.css"
+
 import iconGitHub from "../assets/images/icons/github-light.png";
 import iconLinkedIn from "../assets/images/icons/linkedin-light.png";
 import iconMail from "../assets/images/icons/mail-light.png";

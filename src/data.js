@@ -1,4 +1,51 @@
+// skill imgs
+import skillsJavaScript from "./assets/images/skills/javascript.png";
+import skillsPython from "./assets/images/skills/python.png";
+import skillsCpp from "./assets/images/skills/cpp.png";
+import skillsHtml from "./assets/images/skills/html.png";
+import skillsCss from "./assets/images/skills/css.png";
+import skillsReact from "./assets/images/skills/react.png";
+
+// project imgs
 import imgProjectNavex from "./assets/images/projects/projectnavex.png";
+
+export const skills = [
+    {
+        name: "JavaScript",
+        experience: 3,
+        img: skillsJavaScript,
+    },
+
+    {
+        name: "Python",
+        experience: 4,
+        img: skillsPython,
+    },
+
+    {
+        name: "C++",
+        experience: 2,
+        img: skillsCpp,
+    },
+
+    {
+        name: "HTML",
+        experience: 4,
+        img: skillsHtml,
+    },
+
+    {
+        name: "CSS",
+        experience: 4,
+        img: skillsCss,
+    },
+
+    {
+        name: "React",
+        experience: 1,
+        img: skillsReact,
+    },
+]
 
 export const projects = [
     {
