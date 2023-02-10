@@ -32,7 +32,7 @@ export default function Skills() {
                     loop={true}
                     speed={1000} // 1s transition time
                     autoplay={{
-                        delay: 5000, // stays for 5s
+                        delay: 3000, // stays for 3s
                         disableOnInteraction: false,
                     }}
                 >

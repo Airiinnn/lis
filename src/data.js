@@ -67,7 +67,7 @@ export const projectsFeatured = [
         website: "https://alex.lis.fyi/",
         github: "https://github.com/Airiinnn/lis",
         description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-        tech: "React, JavaScript, HTML, CSS, Swiper",
+        tech: "React, JavaScript, JSX, CSS, Swiper",
         img: projectsLis,
         type: "Personal Project",
     },
