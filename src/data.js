@@ -9,6 +9,7 @@ import skillsReact from "./assets/images/skills/react.png";
 // project imgs
 import projectsLis from "./assets/images/projects/lis.png";
 import projectsProjectNavex from "./assets/images/projects/projectnavex.png";
+import projectsTheAmazingRace from "./assets/images/projects/theamazingrace.png";
 
 export const skills = [
     {
@@ -78,7 +79,7 @@ export const projectsFeatured = [
         github: "https://github.com/Airiinnn/amazing-race",
         description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
         tech: "Python, Flask, SQL, HTML, CSS",
-        img: projectsLis,
+        img: projectsTheAmazingRace,
         type: "BuildingBloCS 2020 Game",
     },
 ];

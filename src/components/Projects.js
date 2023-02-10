@@ -13,7 +13,7 @@ export default function Projects() {
                     <img className="section-cube" src={iconCube} alt="cube" /><span><img className="section-cube" src={iconCube} alt="cube" /></span>
                 </div>
                 <h1 className="center">Projects</h1>
-                <p className="p3 center">Programming projects that I have worked on over the years...</p>
+                <p className="p3 center">Featured and more notable projects</p>
             </div>
             
             <div id="project-list">
