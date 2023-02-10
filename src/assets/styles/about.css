@@ -89,7 +89,7 @@
 #about-right img {
     width: 90%;
     border-radius: 25px;
-    box-shadow: 0 0 2px var(--gray);
+    box-shadow: 0 5px 20px -15px #000000;
     -webkit-animation: flip 1s ease;
     animation: flip 1s ease;
 }

@@ -4,17 +4,9 @@
 }
 
 #skills-list {
-    width: 70vw;
+    width: 60vw;
     margin: 0 auto;
     padding-top: 1em;
-}
-
-.swiper-button-prev {
-    color: var(--primary-color);
-}
-
-.swiper-button-next {
-    color: var(--primary-color);
 }
 
 .skill-card {
@@ -27,7 +19,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    box-shadow: 0 0 4px #000000;
+    box-shadow: 0 5px 20px -15px #000000;
 }
 
 .skill-icon {

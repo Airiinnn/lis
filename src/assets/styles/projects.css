@@ -1,52 +1,59 @@
 #projects {
     background-color: var(--black);
     padding: 50px 0;
-    height: 2000px;
 }
 
 #project-list {
+    padding-top: 2em;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
 .project-card {
+    margin-bottom: 128px;
+    width: 60vw;
     display: flex;
     justify-content: space-between;
-    align-items: flex-start;
-    margin: 1em;
-    width: 70vw;
-    border-radius: 15px;
-    background-color: var(--gray);
-    box-shadow: 0 0 2px var(--primary-color);
+    align-items: center;
 }
 
-.project-preview {
+.project-img {
     height: 360px;
-    width: 360px;
+    width: auto;
+    border-radius: 20px;
+    box-shadow: 0 5px 20px -15px #000000;
 }
 
-.img-left {
-    border-radius: 0 15px 15px 0;
+.project-text {
+    width: auto;
 }
 
-.img-right {
-    border-radius: 15px 0 0 15px;
+.right {
+    text-align: right;
+}
+
+.left {
+    text-align: left;
 }
 
 .project-desc {
-    flex-grow: 5;
-    position: relative;
-    height: 300px;
-    padding: 18px 30px;
+    width: 80%;
+    background-color: var(--secondary-color);
+    border-radius: 8px;
+    padding: 1em;
+    margin: 1em 0;
+    box-shadow: 0 5px 20px -15px #000000;
+}
+
+.desc-right {
+    margin-left: auto;
+}
+
+.desc-left {
+    margin-right: auto;
 }
 
 .project-links {
     padding-top: 1em;
-}
-
-.tech-used {
-    padding-right: inherit;
-    position: absolute;
-    bottom: 0;
 }

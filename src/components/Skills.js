@@ -21,6 +21,10 @@ export default function Skills() {
 
             <div id="skills-list">
                 <Swiper
+                    style={{
+                        "--swiper-navigation-color": "#f1beb0",
+                        "--swiper-navigation-size": "25px",
+                    }}
                     modules={[Navigation, Autoplay]}
                     spaceBetween={0}
                     slidesPerView={3}
@@ -37,7 +41,7 @@ export default function Skills() {
                             <div className="skill-card">
                                 <img className="icon skill-icon" src={skill.img} alt={skill.name} />
                                 <p className="p2">{skill.name}</p>
-                                <p>{skill.experience} years of experience</p>
+                                <p>{skill.experience} year(s) of experience</p>
                             </div>
                         </SwiperSlide>
                     ))}

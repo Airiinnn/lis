@@ -1,64 +1,9 @@
+import ProjectFeatured from "./ProjectFeatured";
+
 import "../assets/styles/projects.css"
 
-import imgProjectNavex from "../assets/images/projects/projectnavex.png";
 import iconCube from "../assets/images/icons/cube-light.png"
-import iconWebsite from "../assets/images/icons/worldwide-light.png"
-import iconGitHub from "../assets/images/icons/github-light.png"
-import { projects } from "../data.js";
-
-function Project({index, title, subtitle, website, github, description, tech, img}) {
-    let websiteHtml = "";
-    let githubHtml = "";
-
-    // check if there is a website
-    if (website) {
-        websiteHtml = <a href={website} className="a-icon"><img src={iconWebsite} alt={title} className="icon" /></a>
-    }
-
-    // check if there is a GitHub
-    if (github) {
-        githubHtml = <a href={github} className="a-icon"><img src={iconGitHub} alt={title} className="icon" /></a>
-    }
-
-    if (index % 2 === 0) {
-        // even-indexed project, img on the right
-        return (
-            <div className="project-card">
-                <div className="project-desc">
-                    <p className="p1 primary">{title}</p>
-                    <p className="p2">{subtitle}</p>
-                    <div className="project-links">
-                        {websiteHtml}
-                        {githubHtml}
-                    </div>
-                    <p className="p3">{description}</p>
-                    <p className="tech-used">Technologies used: <span className="primary">{tech}</span></p>
-                </div>
-                
-                <img className="project-preview img-left" src={img} alt={title} />
-            </div>
-        );
-    } else {
-        // odd-indexed project, img on the left
-        return (
-            <div className="project-card">
-                <img className="project-preview img-right" src={imgProjectNavex} alt={title} />
-                
-                <div className="project-desc">
-                    <p className="p1">{title}</p>
-                    <p className="p2">{subtitle}</p>
-                    <div className="project-links">
-                        {websiteHtml}
-                        {githubHtml}
-                    </div>
-                    <p className="p3">{description}</p>
-
-                    <p className="tech-used">Technologies used: <span className="primary">{tech}</span></p>
-                </div>
-            </div>
-        );
-    }
-}
+import { projectsFeatured } from "../data.js";
 
 export default function Projects() {
     return (
@@ -72,8 +17,8 @@ export default function Projects() {
             </div>
             
             <div id="project-list">
-                {projects.map((project, index) => (
-                    <Project
+                {projectsFeatured.map((project, index) => (
+                    <ProjectFeatured
                         key={project.title}
                         index={index}
                         title={project.title}
@@ -83,9 +28,27 @@ export default function Projects() {
                         description={project.description}
                         tech={project.tech}
                         img={project.img}
+                        type={project.type}
                     />
                 ))}
             </div>
         </section>
     );
 }
+
+/*
+<div className="project-card">
+    <img className="project-img" src={imgLis} alt="lis" />
+
+    <div className="project-text">
+        <p className="p1">lis</p>
+        <p>Personal Programming Portfolio</p>
+
+        <div className="project-desc">
+            <p>If you're looking for random paragraphs, you've come to the right place. When a random word or a random sentence isn't quite enough, the next logical step is to find a random paragraph. We created the Random Paragraph Generator with you in mind.</p>
+        </div>
+
+        <p>React, JavaScript, HTML, CSS, Swiper</p>
+    </div>
+</div>
+*/
