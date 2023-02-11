@@ -1,0 +1,18 @@
+#achievements {
+    background-color: var(--black);
+    padding: 100px 0 50px;
+}
+
+#achievements-list {
+    width: 60vw;
+    margin: 0 auto;
+}
+
+.achievement-card {
+    margin: 0 36px;
+    padding: 1em;
+    border-radius: 15px;
+    background-color: var(--secondary-color);
+    text-align: center;
+    box-shadow: 0 5px 20px -15px #000000;
+}

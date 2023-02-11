@@ -10,13 +10,16 @@ export default function Projects() {
         <section id="projects">
             <div className="section-header">
                 <div>
-                    <img className="section-cube" src={iconCube} alt="cube" /><span><img className="section-cube" src={iconCube} alt="cube" /></span>
+                    <span>
+                        <img className="section-cube" src={iconCube} alt="cube" />
+                        <img className="section-cube" src={iconCube} alt="cube" />
+                    </span>
                 </div>
                 <h1 className="center">Projects</h1>
                 <p className="p3 center">Featured and more notable projects</p>
             </div>
             
-            <div id="project-list">
+            <div className="project-list">
                 {projectsFeatured.map((project, index) => (
                     <ProjectFeatured
                         key={project.title}
@@ -32,6 +35,14 @@ export default function Projects() {
                     />
                 ))}
             </div>
+            
+            <div className="view-more">
+                <a className="view-more-button-a" href="/" >
+                    <div className="view-more-button">
+                        <p className="p2">View All (soon)</p>
+                    </div>
+                </a>
+            </div>            
         </section>
     );
 }

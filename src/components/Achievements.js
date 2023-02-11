@@ -5,28 +5,31 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 
-import "../assets/styles/skills.css"
+import "../assets/styles/achievements.css"
 
 import iconCube from "../assets/images/icons/cube-light.png"
-import { skills } from "../data.js";
+import { achievements } from "../data.js";
 
-export default function Skills() {
+export default function Achievements() {
     return (
-        <section id="skills">
+        <section id="achievements">
             <div className="section-header">
-                <img className="section-cube" src={iconCube} alt="cube" />
-                <h1 className="center">Skills</h1>
-                <p className="p3 center">Languages, frameworks, tools and technical skills I am proficient in...</p>
+                <span>               
+                    <img className="section-cube" src={iconCube} alt="cube" />
+                    <img className="section-cube" src={iconCube} alt="cube" />
+                    <img className="section-cube" src={iconCube} alt="cube" />
+                </span>
+                <h1 className="center">Achievements</h1>
+                <p className="p3 center">Competitions and other miscellaneous achievements...</p>
             </div>
 
-            <div className="skills-list">
+            <div id="achievements-list">
                 <Swiper
                     style={{
                         "--swiper-navigation-color": "#f1beb0",
                         "--swiper-navigation-size": "25px",
                     }}
                     modules={[Navigation, Autoplay]}
-                    spaceBetween={0}
                     slidesPerView={3}
                     navigation={true}
                     loop={true}
@@ -35,13 +38,13 @@ export default function Skills() {
                         delay: 3000, // stays for 3s
                         disableOnInteraction: false,
                     }}
-                >
-                    {skills.map((skill) => (
+                    effect={"fade"}
+                >   
+                    {achievements.map((achievement) => (
                         <SwiperSlide>
-                            <div className="skill-card">
-                                <img className="icon skill-icon" src={skill.img} alt={skill.name} />
-                                <p className="p2">{skill.name}</p>
-                                <p>{skill.experience} year(s) of experience</p>
+                            <div className="achievement-card">
+                                <p className="p2">{achievement.name}</p>
+                                <p>{achievement.award}</p>
                             </div>
                         </SwiperSlide>
                     ))}

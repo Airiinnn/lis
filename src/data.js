@@ -83,3 +83,40 @@ export const projectsFeatured = [
         type: "BuildingBloCS 2020 Game",
     },
 ];
+
+export const achievements = [
+    {
+        name: "1",
+        award: "lol",
+    },
+
+    {
+        name: "2",
+        award: "lol",
+    },
+
+    {
+        name: "3",
+        award: "lol",
+    },
+
+    {
+        name: "4",
+        award: "lol",
+    },
+
+    {
+        name: "5",
+        award: "lol",
+    },
+
+    {
+        name: "6",
+        award: "lol",
+    },
+
+    {
+        name: "7",
+        award: "lol",
+    },
+]
