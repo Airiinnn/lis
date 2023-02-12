@@ -1,6 +1,6 @@
 import "../assets/styles/navbar.css"
 
-import iconCube from "../assets/images/icons/cube-light.png"
+import iconCube from "../assets/images/icons/cube-pink.png"
 
 export default function Navbar() {
     return (
