@@ -41,7 +41,7 @@ export default function Projects() {
             </div>
             
             <div className="view-more">
-                <a className="view-more-button-a" href="/" >
+                <a className="view-more-button-a" href="#projects" >
                     <div className="view-more-button">
                         <p className="p3">View All (soon)</p>
                     </div>

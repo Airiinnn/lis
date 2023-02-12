@@ -151,7 +151,7 @@ export default function About() {
         }; 
 
         typing();
-    }, []); // empty array as second variable so useEffect only runs on render
+    }, []);
 
     return (
         <section id="about">

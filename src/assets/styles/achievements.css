@@ -16,3 +16,15 @@
     text-align: center;
     box-shadow: 0 5px 20px -15px #000000;
 }
+
+/* animations */
+.achievements-0 {
+    opacity: 0;
+    filter: blur(1px);
+}
+
+.achievements-1 {
+    opacity: 1;
+    filter: blur(0);
+    transition: all 1s;
+}

@@ -3,6 +3,7 @@ import { useInView } from 'react-intersection-observer';
 import "../assets/styles/aboutme.css"
 
 import iconCube from "../assets/images/icons/cube-light.png"
+import iconMail from "../assets/images/icons/mail-light.png";
 
 export default function AboutMe() {
     const { ref, inView } = useInView({
@@ -23,6 +24,15 @@ export default function AboutMe() {
                     <p className="p2 primary">Get to know me</p>
 
                     <p className="desc-text">If you're looking for random paragraphs, you've come to the right place. When a random word or a random sentence isn't quite enough, the next logical step is to find a random paragraph. We created the Random Paragraph Generator with you in mind. The process is quite simple. Choose the number of random paragraphs you'd like to see and click the button. Your chosen number of paragraphs will instantly appear. If you're looking for random paragraphs, you've come to the right place. When a random word or a random sentence isn't quite enough, the next logical step is to find a random paragraph. We created the Random Paragraph Generator with you in mind. The process is quite simple. Choose the number of random paragraphs you'd like to see and click the button. Your chosen number of paragraphs will instantly appear. If you're looking for random paragraphs, you've come to the right place. When a random word or a random sentence isn't quite enough, the next logical step is to find a random paragraph. We created the Random Paragraph Generator with you in mind. The process is quite simple. Choose the number of random paragraphs you'd like to see and click the button. Your chosen number of paragraphs will instantly appear.</p>
+                    
+                    <div className="contact">
+                        <a className="contact-button-a" href="mailto:alex.liswandy@hotmail.com" >
+                            <div className="contact-button">
+                                <img src={iconMail} alt="Mail" className="icon" />
+                                <span className="p3 bold contact-text">Contact Me</span>                                
+                            </div>
+                        </a>
+                    </div>
                 </div>
 
                 <div className={`aboutme-right ${inView ? "aboutme-right-1" : "aboutme-right-0"}`}>
