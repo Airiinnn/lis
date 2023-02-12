@@ -1,0 +1,95 @@
+#aboutme {
+    background-color: var(--black);
+    padding: 100px 0 50px;
+    overflow: hidden;
+}
+
+.aboutme-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 32px;
+}
+
+.aboutme-left {
+    width: 27%;
+    padding-right: 6%;
+}
+
+.desc-text {
+    margin: 8px 0;
+}
+
+.aboutme-right {
+    width: 27%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.skills-container {
+    margin-top: 0.5em;
+}
+
+.skill-box {
+    background-color: var(--secondary-color);
+    border: 2px solid var(--secondary-color);
+    border-radius: 8px;
+    padding: 10px;
+    margin-bottom: 16px;
+    box-shadow: 0 5px 20px -15px #000000;
+}
+
+.education-list {
+    list-style-type: none;
+}
+
+.education-li {
+    background: url("../images/icons/cube-light.png") no-repeat;
+    background-size: 20px;
+    padding-left: 32px;
+    margin: 8px 0;
+}
+
+/* animations */
+.aboutme-header-0 {
+    opacity: 0;
+    filter: blur(1px);
+}
+
+.aboutme-header-1 {
+    opacity: 1;
+    filter: blur(0);
+    transition: all 1s;
+}
+
+.aboutme-left-0 {
+    opacity: 0;
+    transform: translateX(-100%);
+}
+
+.aboutme-left-1 {
+    opacity: 1;
+    transform: translateX(0);
+    transition: all 1s;
+    transition-delay: 100ms;
+}
+
+.aboutme-right-0 {
+    opacity: 0;
+    transform: translateX(100%);
+}
+
+.aboutme-right-1 {
+    opacity: 1;
+    transform: translateX(0);
+    transition: all 1s;
+}
+
+.skill-box:nth-child(2) {
+    transition-delay: 20ms;
+}
+
+.skill-box:nth-child(3) {
+    transition-delay: 40ms;
+}

@@ -1,3 +1,4 @@
+import { useInView } from 'react-intersection-observer';
 import ProjectFeatured from "./ProjectFeatured";
 
 import "../assets/styles/projects.css"
@@ -6,17 +7,20 @@ import iconCube from "../assets/images/icons/cube-light.png"
 import { projectsFeatured } from "../data.js";
 
 export default function Projects() {
+    const { ref, inView } = useInView({
+        triggerOnce: true,
+        threshold: 0,
+    });
+
     return (
-        <section id="projects">
-            <div className="section-header">
-                <div>
-                    <span>
-                        <img className="section-cube" src={iconCube} alt="cube" />
-                        <img className="section-cube" src={iconCube} alt="cube" />
-                    </span>
-                </div>
-                <h1 className="center">Projects</h1>
-                <p className="p3 center">Featured and more notable projects</p>
+        <section id="projects" ref={ref}>
+            <div className={`section-header ${inView ? "projects-header-1" : "projects-header-0"}`}>
+                <h1>Projects</h1>
+                <span>
+                    <img className="section-cube" src={iconCube} alt="cube" />
+                    <img className="section-cube" src={iconCube} alt="cube" />
+                </span>
+                <p className="p3 center">These are some of the featured projects that I have worked on.</p>
             </div>
             
             <div className="project-list">
@@ -39,7 +43,7 @@ export default function Projects() {
             <div className="view-more">
                 <a className="view-more-button-a" href="/" >
                     <div className="view-more-button">
-                        <p className="p2">View All (soon)</p>
+                        <p className="p3">View All (soon)</p>
                     </div>
                 </a>
             </div>            

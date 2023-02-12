@@ -1,6 +1,7 @@
 #projects {
     background-color: var(--black);
     padding: 50px 0;
+    overflow: hidden;
 }
 
 .project-list {
@@ -73,4 +74,38 @@
     background-color: var(--secondary-color);
     border-radius: 8px;
     box-shadow: 0 5px 20px -15px #000000;
+}
+
+/* animations */
+.projects-header-0 {
+    opacity: 0;
+    filter: blur(1px);
+}
+
+.projects-header-1 {
+    opacity: 1;
+    filter: blur(0);
+    transition: all 1s;
+}
+
+.projects-left-0 {
+    opacity: 0;
+    transform: translateX(-100%);
+}
+
+.projects-left-1 {
+    opacity: 1;
+    transform: translateX(0);
+    transition: all 1s;
+}
+
+.projects-right-0 {
+    opacity: 0;
+    transform: translateX(40%);
+}
+
+.projects-right-1 {
+    opacity: 1;
+    transform: translateX(0);
+    transition: all 1s;
 }

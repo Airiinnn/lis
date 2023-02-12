@@ -14,6 +14,7 @@
     text-align: justify;
     text-justify: inter-word;
     color: var(--white);
+    scroll-behavior: smooth;
 }
 
 h1 {
@@ -38,7 +39,7 @@ a {
 }
 
 .p3 {
-    margin: 1em 0;
+    font-size: 20px;
 }
 
 .a-icon {
@@ -81,4 +82,8 @@ a {
 
 .black {
     color: var(--black);
+}
+
+.bold {
+    font-weight: bold;
 }

@@ -1,7 +1,14 @@
+import { useInView } from 'react-intersection-observer';
+
 import iconWebsite from "../assets/images/icons/worldwide-light.png"
 import iconGitHub from "../assets/images/icons/github-light.png"
 
 export default function ProjectFeatured({index, title, subtitle, website, github, description, tech, img, type}) {
+    const { ref, inView } = useInView({
+        triggerOnce: true,
+        threshold: 0,
+    });
+
     let websiteHtml = "";
     let githubHtml = "";
 
@@ -18,13 +25,13 @@ export default function ProjectFeatured({index, title, subtitle, website, github
     if (index % 2 === 0) {
         // even-indexed project, img on the left
         return (
-            <div className="project-card">
+            <div ref={ref} className={`project-card ${inView ? "projects-left-1" : "projects-left-0"}`}>
                 <img className="project-img" src={img} alt={title} />
 
                 <div className="project-text right">
                     <p className="secondary">{type}</p>
                     <p className="p1">{title}</p>
-                    <p>{subtitle}</p>
+                    <p className="p3">{subtitle}</p>
 
                     <div className="project-desc desc-right">
                         <p>{description}</p>
@@ -42,11 +49,11 @@ export default function ProjectFeatured({index, title, subtitle, website, github
     } else {
         // odd-indexed project, img on the right
         return (
-            <div className="project-card">
+            <div ref={ref} className={`project-card ${inView ? "projects-right-1" : "projects-right-0"}`}>
                 <div className="project-text left">
                     <p className="secondary">{type}</p>
                     <p className="p1">{title}</p>
-                    <p>{subtitle}</p>
+                    <p className="p3">{subtitle}</p>
 
                     <div className="project-desc desc-left">
                         <p>{description}</p>

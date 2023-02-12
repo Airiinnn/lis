@@ -14,13 +14,13 @@ export default function Achievements() {
     return (
         <section id="achievements">
             <div className="section-header">
+                <h1 className="center">Achievements</h1>
                 <span>               
                     <img className="section-cube" src={iconCube} alt="cube" />
                     <img className="section-cube" src={iconCube} alt="cube" />
                     <img className="section-cube" src={iconCube} alt="cube" />
                 </span>
-                <h1 className="center">Achievements</h1>
-                <p className="p3 center">Competitions and other miscellaneous achievements...</p>
+                <p className="p3 center">Here are the achievements I have attained and the competitions I have participated in.</p>
             </div>
 
             <div id="achievements-list">
