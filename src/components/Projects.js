@@ -20,7 +20,7 @@ export default function Projects() {
                     <img className="section-cube" src={iconCube} alt="cube" />
                     <img className="section-cube" src={iconCube} alt="cube" />
                 </span>
-                <p className="p3 center">These are some of the featured projects that I have worked on.</p>
+                <p className="p3 center">These are some of featured projects that I have worked on.</p>
             </div>
             
             <div className="project-list">
@@ -40,7 +40,7 @@ export default function Projects() {
                 ))}
             </div>
             
-            <div className="view-more">
+            <div className={`view-more ${inView ? "projects-header-1" : "projects-header-0"}`}>
                 <a className="view-more-button-a" href="#projects" >
                     <div className="view-more-button">
                         <p className="p3">View All (soon)</p>

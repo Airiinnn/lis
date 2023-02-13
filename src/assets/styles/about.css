@@ -1,4 +1,4 @@
-#about {
+#about-container {
     height: 100vh;
     min-height: 800px;
     background-color: var(--secondary-color);
@@ -7,6 +7,8 @@
     justify-content: center;
     align-items: center;
     color: var(--white);
+    border-radius: 0 0 8px 8px;
+    box-shadow: 0 5px 20px -15px #000000;
 }
 
 #about-left {

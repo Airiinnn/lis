@@ -155,30 +155,32 @@ export default function About() {
 
     return (
         <section id="about">
-            <div id="about-left">
-                <div id="text-canvas-overlay">
-                    <canvas id="cube"></canvas>
-                    <p id="hi-overlay">lis</p>
-                </div>
+            <div id="about-container">
+                <div id="about-left">
+                    <div id="text-canvas-overlay">
+                        <canvas id="cube"></canvas>
+                        <p id="hi-overlay">lis</p>
+                    </div>
 
-                <div id="about-desc">
-                    <p>Hi! I am</p>
-                    <p className="p1">Alexander Liswandy</p>
-                    <p className="p2"><span id="roles"></span><span className="line-blink"></span></p>
-                    <p className="p3 short-desc">Passionate and self-driven programming & tech enthusiast. Started coding in 2019. Experience in Full Stack Web Development and Competitive Programming Algorithms. Currently exploring Path Finding Algorithms and Computer Vision. Looking to gain knowledge and experience in DevOps and ML.</p>
-                    <div id="links">
-                        <a href="https://github.com/Airiinnn" className="a-icon"><img src={iconGitHub} alt="GitHub" className="icon" /></a>
-                        <a href="https://www.linkedin.com/in/alexanderliswandy/" className="a-icon"><img src={iconLinkedIn} alt="LinkedIn" className="icon" /></a>
-                        <a href="mailto:alex.liswandy@hotmail.com" className="a-icon"><img src={iconMail} alt="Mail" className="icon" /></a>
+                    <div id="about-desc">
+                        <p>Hi! I am</p>
+                        <p className="p1">Alexander Liswandy</p>
+                        <p className="p2"><span id="roles"></span><span className="line-blink"></span></p>
+                        <p className="p3 short-desc">Passionate and self-driven programming & tech enthusiast. Started coding in 2019. Experience in Full Stack Web Development and Competitive Programming Algorithms. Currently exploring Path Finding Algorithms and Computer Vision. Looking to gain knowledge and experience in DevOps and ML.</p>
+                        <div id="links">
+                            <a href="https://github.com/Airiinnn" className="a-icon"><img src={iconGitHub} alt="GitHub" className="icon" /></a>
+                            <a href="https://www.linkedin.com/in/alexanderliswandy/" className="a-icon"><img src={iconLinkedIn} alt="LinkedIn" className="icon" /></a>
+                            <a href="mailto:alex.liswandy@hotmail.com" className="a-icon"><img src={iconMail} alt="Mail" className="icon" /></a>
+                        </div>
                     </div>
                 </div>
-            </div>
 
-            <div id="about-right">
-                <img src={imgAboutMe} alt="About Me"/>
-            </div>
+                <div id="about-right">
+                    <img src={imgAboutMe} alt="About Me"/>
+                </div>
 
-            <script src="/src/cube.js"></script>
+                <script src="/src/cube.js"></script>
+            </div>
         </section>
     );
 }

@@ -16,7 +16,7 @@ export default function AboutMe() {
             <div className={`section-header ${inView ? "aboutme-header-1" : "aboutme-header-0"}`}>
                 <h1>About Me</h1>
                 <img className="section-cube" src={iconCube} alt="cube" />
-                <p className="p3 center">Find out more about me, what I do and skills related to programming and technology.</p>
+                <p className="p3 center">Find out more about me, what I do and my skills related to programming and technology.</p>
             </div>
 
             <div className="aboutme-container">
