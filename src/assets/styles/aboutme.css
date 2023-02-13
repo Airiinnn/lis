@@ -5,14 +5,13 @@
 
 .aboutme-container {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: flex-start;
     margin-top: 32px;
 }
 
 .aboutme-left {
-    width: 27%;
-    padding-right: 6%;
+    width: 46%;
 }
 
 .desc-text {
@@ -45,7 +44,7 @@
 }
 
 .aboutme-right {
-    width: 27%;
+    width: 46%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;

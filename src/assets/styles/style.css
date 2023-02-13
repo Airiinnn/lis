@@ -65,6 +65,12 @@ button {
     width: auto;
 }
 
+.content-area {
+    width: 60%;
+    min-width: 800px;
+    margin: 0 auto;
+}
+
 .section-header {
     display: flex;
     flex-direction: column;
