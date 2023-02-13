@@ -3,7 +3,7 @@
 }
 
 #achievements-list {
-    width: 60vw;
+    min-width: 60vw;
     margin: 32px auto 0;
 }
 

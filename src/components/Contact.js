@@ -26,19 +26,19 @@ export default function Contact() {
                     <p className="p2 center">Get in Touch</p>
 
                     <div className="contact-list">
-                        <a href="#contact" className="contact-item">
+                        <a href="mailto:alex.liswandy@hotmail.com" className="contact-item">
                             <img src={iconMail} alt="Mail" className="icon" />
                             <span className="p3 contact-text">alex.liswandy@hotmail.com</span>
                         </a>
 
-                        <a href="#contact" className="contact-item">
+                        <a href="https://www.linkedin.com/in/alexanderliswandy/" className="contact-item">
                             <img src={iconLinkedIn} alt="LinkedIn" className="icon" />
-                            <span className="p3 contact-text">https://www.linkedin.com/in/alexanderliswandy/</span>
+                            <span className="p3 contact-text">alexanderliswandy</span>
                         </a>
 
-                        <a href="#contact" className="contact-item">
+                        <a href="https://github.com/Airiinnn" className="contact-item">
                             <img src={iconGitHub} alt="GitHub" className="icon" />
-                            <span className="p3 contact-text">https://github.com/Airiinnn</span>
+                            <span className="p3 contact-text">Airiinnn</span>
                         </a>
                     </div>
                 </div>

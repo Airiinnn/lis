@@ -16,6 +16,10 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-color: var(--gray);
+    padding: 32px;
+    border-radius: 25px;
+    box-shadow: 0 5px 20px -15px #000000;
 }
 
 .project-img {
@@ -107,4 +111,22 @@
     opacity: 1;
     transform: translateX(0);
     transition: all 1s;
+}
+
+/* mobile view */
+@media (max-width: 800px) {
+    .project-card{
+        width: 90%;
+        flex-direction: column;
+    }
+    
+    .project-img {
+        z-index: -10;
+        width: 100%;
+        margin: 10% 0;
+    }
+
+    .project-text {
+        width: 100%;
+    }
 }

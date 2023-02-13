@@ -39,7 +39,7 @@ export default function Achievements() {
                                 "--swiper-navigation-size": "25px",
                             }}
                             modules={[Navigation, Autoplay]}
-                            slidesPerView={3}
+                            slidesPerView={1}
                             navigation={true}
                             loop={true}
                             speed={1000} // 1s transition time
@@ -47,7 +47,11 @@ export default function Achievements() {
                                 delay: 3000, // stays for 3s
                                 disableOnInteraction: false,
                             }}
-                            effect={"fade"}
+                            breakpoints={{
+                                800: {
+                                    slidesPerView: 3,
+                                },
+                            }}
                         >   
                             {achievements.map((achievement) => (
                                 <SwiperSlide>

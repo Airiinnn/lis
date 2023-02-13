@@ -116,3 +116,23 @@
 .skill-box:nth-child(3) {
     transition-delay: 40ms;
 }
+
+/* mobile view */
+@media (max-width: 800px) {
+    .aboutme-container {
+        flex-direction: column;
+    }
+
+    .aboutme-left {
+        width: 100%;
+        margin-bottom: 10%;
+    }
+
+    .aboutme-right {
+        width: 100%;
+    }
+
+    .skills-container {
+        margin-bottom: 10%;
+    }
+}

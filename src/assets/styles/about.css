@@ -1,6 +1,5 @@
 #about-container {
-    height: 100vh;
-    min-height: 800px;
+    min-height: 100vh;
     background-color: var(--secondary-color);
     padding: 32px 0;
     display: flex;
@@ -115,5 +114,20 @@
     }
     100% {
         transform: rotateY(0deg);
+    }
+}
+
+/* mobile view */
+@media (max-width: 800px) {
+    #about-container {
+        flex-direction: column;
+    }
+
+    #about-desc {
+        margin: 0 10% 10%;
+    }
+
+    #text-canvas-overlay {
+        margin-top: 32px;
     }
 }

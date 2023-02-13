@@ -64,11 +64,11 @@ export default function AboutMe() {
                             <ul className="education-list">
                                 <li className="education-li">
                                     <p className="p3 secondary">Dunman High School</p>
-                                    <p>A-Level H2 Computing</p>
+                                    <p>A-Level H2 Computing<span className="duration">2019 - 2020</span></p>
                                 </li>
                                 <li className="education-li">
                                     <p className="p3 secondary">Nanyang Technological University</p>
-                                    <p>Bachelor of Engineering in Computer Science with a Second Major in Business</p>
+                                    <p>Bachelor of Engineering in Computer Science with a Second Major in Business<span className="duration">2023 - 2027</span></p>
                                 </li>
                             </ul>
                         </div>

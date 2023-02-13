@@ -65,9 +65,12 @@ button {
     width: auto;
 }
 
+.duration {
+    float: right;
+}
+
 .content-area {
     width: 60%;
-    min-width: 800px;
     margin: 0 auto;
 }
 
@@ -108,4 +111,23 @@ button {
 
 .bold {
     font-weight: bold;
+}
+
+/* mobile view */
+@media (max-width: 800px) {
+    .p2 {
+        font-size: 20px;
+    }
+
+    .p3 {
+        font-size: 16px;
+    }
+
+    .content-area {
+        width: 80%;
+    }
+
+    .section-header {
+        width: 100%;
+    }
 }

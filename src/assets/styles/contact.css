@@ -45,3 +45,14 @@
     transform: translateY(0);
     transition: all 1s;
 }
+
+/* mobile view */
+@media (max-width: 800px) {
+    .contact-container .section-header {
+        width: 80%;
+    }
+
+    .get-in-toucher {
+        width: 80%;
+    }
+}
