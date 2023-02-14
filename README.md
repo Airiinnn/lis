@@ -1,6 +1,6 @@
 # lis - Programming Portfolio
 
-Live at [alex.lis.fyi](alex.lis.fyi)!
+Live at [alex.lis.fyi](https://alex.lis.fyi/)!
 
 ![lis](src/assets/images/projects/lis.png)
 
