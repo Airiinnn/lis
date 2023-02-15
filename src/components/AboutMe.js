@@ -24,7 +24,15 @@ export default function AboutMe() {
                     <div className={`aboutme-left ${inView ? "aboutme-left-1" : "aboutme-left-0"}`}>
                         <p className="p2 primary">Get to know me</p>
 
-                        <p className="desc-text">If you're looking for random paragraphs, you've come to the right place. When a random word or a random sentence isn't quite enough, the next logical step is to find a random paragraph. We created the Random Paragraph Generator with you in mind. The process is quite simple. Choose the number of random paragraphs you'd like to see and click the button. Your chosen number of paragraphs will instantly appear. If you're looking for random paragraphs, you've come to the right place. When a random word or a random sentence isn't quite enough, the next logical step is to find a random paragraph. We created the Random Paragraph Generator with you in mind. The process is quite simple. Choose the number of random paragraphs you'd like to see and click the button. Your chosen number of paragraphs will instantly appear. If you're looking for random paragraphs, you've come to the right place. When a random word or a random sentence isn't quite enough, the next logical step is to find a random paragraph. We created the Random Paragraph Generator with you in mind. The process is quite simple. Choose the number of random paragraphs you'd like to see and click the button. Your chosen number of paragraphs will instantly appear.</p>
+                        <p className="desc-text">
+                            Hello! My name is <b className="secondary">Alexander Liswandy</b> and I am Computer Science student. I began my programming journey in 2019 during my JC years at Dunman High School, Singapore, taking the H2 Computing subject for GCE A-Level.
+                            <br /><br />
+                            Over the past 4 years, I have gained a lot of experience in <b className="secondary">Web Development</b>, starting with Web Applications built with <b className="secondary">Flask</b>, <b className="secondary">HTML</b> and <b className="secondary">CSS</b> and transitioning to Apps built with <b className="secondary">JavaScript</b> and popular front-end frameworks like <b className="secondary">React</b>.
+                            <br /><br />
+                            I am also interested in <b className="secondary">Competitive Programming</b> which probably stems from my love of puzzle games since young. I have dabbled in a few competitions over the years and I intend on translating this current hobby into application performance optimization skills.
+                            <br /><br />
+                            Currently, I am working on a few projects involving <b className="secondary">Path Finding Algorithms</b>, <b className="secondary">Telegram API</b> and <b className="secondary">Optical Character Recognition</b>. I am planning to explore more into Artificial Intelligence projects in the very near future so stay tuned. :)
+                        </p>
                         
                         <div className="contact">
                             <a className="contact-button-a" href="mailto:alex.liswandy@hotmail.com" >
