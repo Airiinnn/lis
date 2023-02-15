@@ -39,37 +39,47 @@ export const projectsFeatured = [
 
 export const achievements = [
     {
-        name: "1",
-        award: "lol",
+        name: "National Olympiad in Informatics, Singapore 2020",
+        award: "Bronze Award",
     },
 
     {
-        name: "2",
-        award: "lol",
+        name: "GovTech GeekOut Bootcamp 2019",
+        award: "Second Runner Up",
     },
 
     {
-        name: "3",
-        award: "lol",
+        name: "Google Code-In Competition 2020",
+        award: "Participant",
     },
 
     {
-        name: "4",
-        award: "lol",
+        name: "Google Kick Start Competition 2020",
+        award: "Participant",
     },
 
     {
-        name: "5",
-        award: "lol",
+        name: "NTU SCSE Computing Challenge 2020",
+        award: "Participant",
     },
 
     {
-        name: "6",
-        award: "lol",
+        name: "Microsoft Imagine Cup Junior 2020",
+        award: "Participant",
     },
 
     {
-        name: "7",
-        award: "lol",
+        name: "DSTA Brainhack Competition 2020",
+        award: "Participant",
+    },
+
+    {
+        name: "SMU WhiteHacks Competition 2020",
+        award: "Participant",
+    },
+
+    {
+        name: "Samsung Solve for Tomorrow 2020",
+        award: "Participant",
     },
 ]

@@ -56,7 +56,7 @@ export default function Achievements() {
                             {achievements.map((achievement) => (
                                 <SwiperSlide>
                                     <div className="achievement-card">
-                                        <p className="p2">{achievement.name}</p>
+                                        <p className="p3">{achievement.name}</p>
                                         <p>{achievement.award}</p>
                                     </div>
                                 </SwiperSlide>
