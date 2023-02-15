@@ -13,3 +13,8 @@ Focuses of this personal project:
 2. Be conscious of UX when designing the UI
 3. Create a responsive web design that looks good on all devices
 4. Gain additional experience in front-end development
+
+### TODO:
+1. Add events section
+2. Improve descriptions
+3. Small misc UI changes
