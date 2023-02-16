@@ -24,9 +24,20 @@ body {
 h1 {
     color: var(--primary-color);
     font-size: 40px;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+p {
+    font-size: 18px;
 }
 
 a {
+    font-size: 18px;
     text-decoration: none;
     color: inherit;
 }
@@ -39,21 +50,6 @@ button {
 	font: inherit;
 	cursor: pointer;
 	outline: inherit;
-}
-
-.p1 {
-    font-size: 40px;
-    font-weight: bold;
-    color: var(--primary-color);
-}
-
-.p2 {
-    font-size: 24px;
-    font-weight: bold;
-}
-
-.p3 {
-    font-size: 20px;
 }
 
 .a-icon {

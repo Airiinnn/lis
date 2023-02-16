@@ -28,8 +28,9 @@ export default function Achievements() {
                             <img className="section-cube" src={iconCube} alt="cube" />
                             <img className="section-cube" src={iconCube} alt="cube" />
                             <img className="section-cube" src={iconCube} alt="cube" />
+                            <img className="section-cube" src={iconCube} alt="cube" />
                         </span>
-                        <p className="p3 center">Here are the achievements I have attained and the competitions I have participated in.</p>
+                        <p className="center">Here are the achievements I have attained and the competitions I have participated in.</p>
                     </div>
 
                     <div id="achievements-list">
@@ -56,7 +57,7 @@ export default function Achievements() {
                             {achievements.map((achievement) => (
                                 <SwiperSlide>
                                     <div className="achievement-card">
-                                        <p className="p3">{achievement.name}</p>
+                                        <p className="bold">{achievement.name}</p>
                                         <p>{achievement.award}</p>
                                     </div>
                                 </SwiperSlide>

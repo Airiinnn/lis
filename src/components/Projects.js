@@ -21,10 +21,10 @@ export default function Projects() {
                         <img className="section-cube" src={iconCube} alt="cube" />
                         <img className="section-cube" src={iconCube} alt="cube" />
                     </span>
-                    <p className="p3 center">These are some of featured projects that I have worked on.</p>
+                    <p className="center">These are some of featured projects that I have worked on.</p>
                 </div>
                 
-                <div className="project-list">
+                <div id="project-list">
                     {projectsFeatured.map((project, index) => (
                         <ProjectFeatured
                             key={project.title}
@@ -41,10 +41,10 @@ export default function Projects() {
                     ))}
                 </div>
                 
-                <div className={`view-more ${inView ? "projects-header-1" : "projects-header-0"}`}>
-                    <a className="view-more-button-a" href="#projects" >
-                        <div className="view-more-button">
-                            <p className="p3">View All (soon)</p>
+                <div id="view-more" className={inView ? "projects-header-1" : "projects-header-0"}>
+                    <a id="view-more-button-a" href="#projects" >
+                        <div id="view-more-button">
+                            <p>View All (soon)</p>
                         </div>
                     </a>
                 </div>

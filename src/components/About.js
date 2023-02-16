@@ -164,10 +164,10 @@ export default function About() {
 
                     <div id="about-desc">
                         <p>Hi! I am</p>
-                        <p className="p1">Alexander Liswandy</p>
-                        <p className="p2"><span id="roles"></span><span className="line-blink"></span></p>
-                        <p className="p3 short-desc">Passionate and self-driven programming & tech enthusiast. Started coding in 2019. Experience in Full Stack Web Development and Competitive Programming Algorithms. Currently exploring Path Finding Algorithms and Optical Character Recognition. Looking to gain knowledge and experience in Software Development and Artificial Intelligence.</p>
-                        <div id="links">
+                        <h1>Alexander Liswandy</h1>
+                        <h2><span id="roles"></span><span className="line-blink"></span></h2>
+                        <p id="short-desc">Passionate and self-driven programming & tech enthusiast. Started coding in 2019. Experience in Web Development and Competitive Programming Algorithms. Currently exploring Path Finding Algorithms and Optical Character Recognition. Looking to gain knowledge and experience in Software Development and Artificial Intelligence.</p>
+                        <div id="about-links">
                             <a href="https://github.com/Airiinnn" className="a-icon"><img src={iconGitHub} alt="GitHub" className="icon" /></a>
                             <a href="https://www.linkedin.com/in/alexanderliswandy/" className="a-icon"><img src={iconLinkedIn} alt="LinkedIn" className="icon" /></a>
                             <a href="mailto:alex.liswandy@hotmail.com" className="a-icon"><img src={iconMail} alt="Mail" className="icon" /></a>

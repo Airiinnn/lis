@@ -3,7 +3,7 @@
     overflow: hidden;
 }
 
-.project-list {
+#project-list {
     padding-top: 2em;
     display: flex;
     flex-direction: column;
@@ -62,17 +62,17 @@
     padding-top: 1em;
 }
 
-.view-more {
+#view-more {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.view-more-button-a {
+#view-more-button-a {
     text-decoration: none;
 }
 
-.view-more-button {
+#view-more-button {
     padding: 1em;
     background-color: var(--secondary-color);
     border-radius: 8px;

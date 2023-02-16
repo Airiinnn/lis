@@ -27,17 +27,17 @@ export default function Navbar() {
 
     return (
         <header id="navbar">
-            <div className="nav-left">
+            <div id="nav-left">
                 <a href="#about">
-                    <div className="nav-icon">
+                    <div id="nav-icon">
                         <img src={iconCube} alt="cube" className="icon" />
-                        <span className="nav-text bold">lis</span>
+                        <span id="nav-text" className="bold">lis</span>
                     </div>
                 </a>
             </div>
             
-            <nav className="nav-middle">
-                <ul className="nav-links">
+            <nav id="nav-middle">
+                <ul id="nav-links">
                     <li className="nav-link"><a href="#aboutme">About Me</a></li>
                     <li className="nav-link"><a href="#projects">Projects</a></li>
                     <li className="nav-link"><a href="#achievements">Achievements</a></li>
@@ -45,7 +45,7 @@ export default function Navbar() {
                 </ul>
             </nav>
 
-            <div className="nav-right">
+            <div id="nav-right">
                 <div className="resume">
                     <a className="resume-button-a" href="resume.pdf" >
                         <div className="resume-button">
@@ -56,11 +56,11 @@ export default function Navbar() {
             </div>
 
             <div id="hamburger-icon" className={`${mobileMenuActive ? "open": "closed"}`} onClick={toggleMobileMenu}>
-                <div className="bar bar-1"></div>
-                <div className="bar bar-2"></div>
-                <div className="bar bar-3"></div>
+                <div id="bar-1" className="bar"></div>
+                <div id="bar-2" className="bar"></div>
+                <div id="bar-3" className="bar"></div>
 
-                <ul className={`mobile-menu ${mobileMenuActive ? "nav-list-1": "nav-list-0"}`}>
+                <ul id="mobile-menu" className={mobileMenuActive ? "nav-list-1": "nav-list-0"}>
                     <li><a href="#aboutme">About Me</a></li>
                     <li><a href="#projects">Projects</a></li>
                     <li><a href="#achievements">Achievements</a></li>

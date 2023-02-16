@@ -8,12 +8,16 @@
 }
 
 .achievement-card {
-    margin: 0 36px;
+    margin: auto 36px;
     padding: 1em;
     border-radius: 15px;
     background-color: var(--secondary-color);
     text-align: center;
     box-shadow: 0 5px 20px -15px #000000;
+}
+
+.swiper-wrapper {
+    align-items: center;
 }
 
 /* animations */

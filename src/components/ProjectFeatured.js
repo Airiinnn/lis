@@ -30,8 +30,8 @@ export default function ProjectFeatured({index, title, subtitle, website, github
 
                 <div className="project-text right">
                     <p className="secondary">{type}</p>
-                    <p className="p1">{title}</p>
-                    <p className="p3">{subtitle}</p>
+                    <h1>{title}</h1>
+                    <p>{subtitle}</p>
 
                     <div className="project-desc desc-right">
                         <p>{description}</p>
@@ -52,8 +52,8 @@ export default function ProjectFeatured({index, title, subtitle, website, github
             <div ref={ref} className={`project-card ${inView ? "projects-right-1" : "projects-right-0"}`}>
                 <div className="project-text left">
                     <p className="secondary">{type}</p>
-                    <p className="p1">{title}</p>
-                    <p className="p3">{subtitle}</p>
+                    <h1>{title}</h1>
+                    <p>{subtitle}</p>
 
                     <div className="project-desc desc-left">
                         <p>{description}</p>

@@ -1,10 +1,11 @@
 import React from "react";
-import About from "./components/About";
-import Contact from "./components/Contact";
 import Navbar from "./components/Navbar";
-import Projects from "./components/Projects";
+import About from "./components/About";
 import AboutMe from "./components/AboutMe";
+import Projects from "./components/Projects";
+import Events from "./components/Events";
 import Achievements from "./components/Achievements";
+import Contact from "./components/Contact";
 
 export default function App() {
     return (
@@ -13,6 +14,7 @@ export default function App() {
             <About />
             <AboutMe />
             <Projects />
+            <Events />
             <Achievements />
             <Contact />
         </main>

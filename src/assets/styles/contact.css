@@ -3,7 +3,7 @@
     overflow: hidden;
 }
 
-.contact-container {
+#contact-container {
     background-color: var(--secondary-color);
     display: flex;
     flex-direction: column;
@@ -14,11 +14,11 @@
     padding: 50px 0;
 }
 
-.get-in-touch {
+#get-in-touch {
     padding: 16px 0;
 }
 
-.contact-list {
+#contact-list {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -48,11 +48,7 @@
 
 /* mobile view */
 @media (max-width: 1000px) {
-    .contact-container .section-header {
-        width: 80%;
-    }
-
-    .get-in-toucher {
+    #contact-container .section-header {
         width: 80%;
     }
 }

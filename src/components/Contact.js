@@ -15,30 +15,30 @@ export default function Contact() {
 
     return (
         <section id="contact" ref={ref}>
-            <div className={`contact-container ${inView ? "contact-1" : "contact-0"}`}>
+            <div id="contact-container" className={inView ? "contact-1" : "contact-0"}>
                 <div className="section-header">
                     <h1>Contact</h1>
                     <img className="section-cube" src={iconCube} alt="cube" />
-                    <p className="p3 center">Currently looking for internship / freelance opportunities, but my inbox is always open for anything. Feel free to say hi or ask any questions, I'll do my best to get back to you!</p>
+                    <p className="center">Currently looking for internship / freelance opportunities, but my inbox is always open for anything. Feel free to say hi or ask any questions, I'll do my best to get back to you!</p>
                 </div>
                 
-                <div className="get-in-touch">
-                    <p className="p2 center">Get in Touch</p>
+                <div id="get-in-touch">
+                    <h2 className="center">Get in Touch</h2>
 
-                    <div className="contact-list">
+                    <div id="contact-list">
                         <a href="mailto:alex.liswandy@hotmail.com" className="contact-item">
                             <img src={iconMail} alt="Mail" className="icon" />
-                            <span className="p3 contact-text">alex.liswandy@hotmail.com</span>
+                            <p className="contact-text">alex.liswandy@hotmail.com</p>
                         </a>
 
                         <a href="https://www.linkedin.com/in/alexanderliswandy/" className="contact-item">
                             <img src={iconLinkedIn} alt="LinkedIn" className="icon" />
-                            <span className="p3 contact-text">alexanderliswandy</span>
+                            <p className="contact-text">alexanderliswandy</p>
                         </a>
 
                         <a href="https://github.com/Airiinnn" className="contact-item">
                             <img src={iconGitHub} alt="GitHub" className="icon" />
-                            <span className="p3 contact-text">Airiinnn</span>
+                            <p className="contact-text">Airiinnn</p>
                         </a>
                     </div>
                 </div>

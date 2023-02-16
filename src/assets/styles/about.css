@@ -79,12 +79,12 @@
     margin: 0 5px;
 }
 
-.short-desc {
+#short-desc {
     margin: 0.5em 0;
 }
 
 /* links */
-#links {
+#about-links {
     display: flex;
     justify-content: left;
     align-items: center;
