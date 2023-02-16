@@ -1,14 +1,14 @@
-#events {
+#courses {
     padding: 50px 0;
 }
 
 /* animations */
-.events-header-0 {
+.courses-header-0 {
     opacity: 0;
     filter: blur(1px);
 }
 
-.events-header-1 {
+.courses-header-1 {
     opacity: 1;
     filter: blur(0);
     transition: all 1s;

@@ -23,14 +23,14 @@ export default function Achievements() {
             <div className="content-area">
                 <div className={`${inView ? "achievements-1" : "achievements-0"}`}>
                     <div className="section-header">
-                        <h1 className="center">Achievements</h1>
+                        <h1 className="center">Achievements & Events</h1>
                         <span>               
                             <img className="section-cube" src={iconCube} alt="cube" />
                             <img className="section-cube" src={iconCube} alt="cube" />
                             <img className="section-cube" src={iconCube} alt="cube" />
                             <img className="section-cube" src={iconCube} alt="cube" />
                         </span>
-                        <p className="center">Here are the achievements I have attained and the competitions I have participated in.</p>
+                        <p className="center">Here are the achievements I have attained and other events that I have been a part of.</p>
                     </div>
 
                     <div id="achievements-list">
