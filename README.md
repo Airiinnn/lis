@@ -18,3 +18,4 @@ Focuses of this personal project:
 1. Add events section
 2. Improve descriptions
 3. Small misc UI changes
+4. Add EmailJS to contact
