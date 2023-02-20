@@ -37,7 +37,24 @@ export const projectsFeatured = [
     },
 ];
 
+export const certifications = [
+    {
+        title: "title",
+        issuer: "issuer",
+    }
+]
+
 export const achievements = [
+    {
+        name: "BuildingBloCS 2020",
+        award: "Games Committee Lead",
+    },
+
+    {
+        name: "FOSSASIA Summit 2020",
+        award: "Web Development Workshop Presenter",
+    },
+
     {
         name: "National Olympiad in Informatics, Singapore 2020",
         award: "Bronze Award",
@@ -49,12 +66,12 @@ export const achievements = [
     },
 
     {
-        name: "Google Code-In Competition 2020",
+        name: "Google Code-In 2020",
         award: "Participant",
     },
 
     {
-        name: "Google Kick Start Competition 2020",
+        name: "Google Kick Start 2020",
         award: "Participant",
     },
 
@@ -80,6 +97,21 @@ export const achievements = [
 
     {
         name: "Samsung Solve for Tomorrow 2020",
+        award: "Participant",
+    },
+
+    {
+        name: "FOSSASIA Summit 2019",
+        award: "Facilitator & Participant",
+    },
+
+    {
+        name: "PyCon 2019",
+        award: "Facilitator & Participant",
+    },
+
+    {
+        name: "Hacktoberfest 2019",
         award: "Participant",
     },
 ]

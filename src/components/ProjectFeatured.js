@@ -1,5 +1,7 @@
+// Intersection Observer API
 import { useInView } from 'react-intersection-observer';
 
+// Data
 import iconWebsite from "../assets/images/icons/worldwide-light.png"
 import iconGitHub from "../assets/images/icons/github-light.png"
 

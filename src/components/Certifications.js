@@ -1,20 +1,25 @@
+// Intersection Observer API
 import { useInView } from 'react-intersection-observer';
 
-import "../assets/styles/courses.css"
+// Styling
+import "../assets/styles/certifications.css"
 
+// Data
+import Certification from "./Certification.js"
 import iconCube from "../assets/images/icons/cube-light.png"
+import { certifications } from "../data.js";
 
-export default function Courses() {
+export default function Certifications() {
     const { ref, inView } = useInView({
         triggerOnce: true,
         threshold: 0,
     });
 
     return (
-        <section id="#courses" ref={ref}>
+        <section id="#certifications" ref={ref}>
             <div className="content-area">
-                <div className={`section-header ${inView ? "courses-header-1" : "courses-header-0"}`}>
-                    <h1>Courses</h1>
+                <div className={`section-header ${inView ? "certifications-header-1" : "certifications-header-0"}`}>
+                    <h1>Certifications</h1>
                     <span>               
                         <img className="section-cube" src={iconCube} alt="cube" />
                         <img className="section-cube" src={iconCube} alt="cube" />
@@ -23,7 +28,11 @@ export default function Courses() {
                     <p className="center">I have completed these courses.</p>
                 </div>
 
-                <p className="center">Collating and adding to data.js. Check back soon</p>
+                <div className="course-card-container">
+                    {certifications.map((certification) => (
+                        <Certification key={certification.key}/>
+                    ))}
+                </div>
             </div>
         </section>
     )

@@ -1,7 +1,10 @@
+// React library
 import { useEffect } from "react";
 
+// Styling
 import "../assets/styles/about.css"
 
+// Data
 import iconGitHub from "../assets/images/icons/github-light.png";
 import iconLinkedIn from "../assets/images/icons/linkedin-light.png";
 import iconMail from "../assets/images/icons/mail-light.png";

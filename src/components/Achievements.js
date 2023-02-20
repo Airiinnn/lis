@@ -5,10 +5,13 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 
+// Intersection Observer API
 import { useInView } from 'react-intersection-observer';
 
+// Styling
 import "../assets/styles/achievements.css"
 
+// Data
 import iconCube from "../assets/images/icons/cube-light.png"
 import { achievements } from "../data.js";
 
@@ -49,13 +52,13 @@ export default function Achievements() {
                                 disableOnInteraction: false,
                             }}
                             breakpoints={{
-                                800: {
+                                1000: {
                                     slidesPerView: 3,
                                 },
                             }}
                         >   
                             {achievements.map((achievement) => (
-                                <SwiperSlide>
+                                <SwiperSlide key={achievement.name}>
                                     <div className="achievement-card">
                                         <p className="bold">{achievement.name}</p>
                                         <p>{achievement.award}</p>

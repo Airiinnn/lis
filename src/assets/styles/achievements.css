@@ -8,8 +8,12 @@
 }
 
 .achievement-card {
-    margin: auto 36px;
-    padding: 1em;
+    min-height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto 32px;
+    padding: 8px;
     border-radius: 15px;
     background-color: var(--secondary-color);
     text-align: center;

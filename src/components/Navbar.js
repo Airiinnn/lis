@@ -1,7 +1,10 @@
+// React library
 import { useState, useEffect } from "react";
 
+// Styling
 import "../assets/styles/navbar.css"
 
+// Data
 import iconCube from "../assets/images/icons/cube-pink.png"
 
 export default function Navbar() {

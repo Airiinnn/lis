@@ -1,8 +1,11 @@
+// Intersection Observer API
 import { useInView } from 'react-intersection-observer';
-import ProjectFeatured from "./ProjectFeatured";
 
+// Styling
 import "../assets/styles/projects.css"
 
+// Data
+import ProjectFeatured from "./ProjectFeatured";
 import iconCube from "../assets/images/icons/cube-light.png"
 import { projectsFeatured } from "../data.js";
 

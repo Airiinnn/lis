@@ -1,7 +1,10 @@
+// Intersection Observer API
 import { useInView } from 'react-intersection-observer';
 
+// Styling
 import "../assets/styles/aboutme.css"
 
+// Data
 import iconCube from "../assets/images/icons/cube-light.png"
 import iconMail from "../assets/images/icons/mail-light.png";
 

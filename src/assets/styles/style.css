@@ -111,11 +111,11 @@ button {
 
 /* mobile view */
 @media (max-width: 1000px) {
-    .p2 {
+    h2 {
         font-size: 20px;
     }
 
-    .p3 {
+    p {
         font-size: 16px;
     }
 

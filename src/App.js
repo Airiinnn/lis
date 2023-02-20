@@ -1,9 +1,8 @@
-import React from "react";
 import Navbar from "./components/Navbar";
 import About from "./components/About";
 import AboutMe from "./components/AboutMe";
 import Projects from "./components/Projects";
-import Courses from "./components/Courses";
+import Certifications from "./components/Certifications";
 import Achievements from "./components/Achievements";
 import Contact from "./components/Contact";
 
@@ -14,7 +13,7 @@ export default function App() {
             <About />
             <AboutMe />
             <Projects />
-            <Courses />
+            <Certifications />
             <Achievements />
             <Contact />
         </main>
