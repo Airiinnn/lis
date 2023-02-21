@@ -16,21 +16,27 @@ export default function Certifications() {
     });
 
     return (
-        <section id="#certifications" ref={ref}>
+        <section id="certifications" ref={ref}>
             <div className="content-area">
                 <div className={`section-header ${inView ? "certifications-header-1" : "certifications-header-0"}`}>
-                    <h1>Certifications</h1>
+                    <h1>Certifications & Courses</h1>
                     <span>               
                         <img className="section-cube" src={iconCube} alt="cube" />
                         <img className="section-cube" src={iconCube} alt="cube" />
                         <img className="section-cube" src={iconCube} alt="cube" />
                     </span>
-                    <p className="center">I have completed these courses.</p>
+                    <p className="center">Certifications and courses I have done during my free time.</p>
                 </div>
 
-                <div className="course-card-container">
+                <div id="certification-card-container">
                     {certifications.map((certification) => (
-                        <Certification key={certification.key}/>
+                        <Certification 
+                            key={certification.title}
+                            title={certification.title}
+                            issuer={certification.issuer}
+                            date={certification.date}
+                            img={certification.img}
+                        />
                     ))}
                 </div>
             </div>

@@ -43,7 +43,7 @@ export default function Navbar() {
                 <ul id="nav-links">
                     <li className="nav-link"><a href="#aboutme">About Me</a></li>
                     <li className="nav-link"><a href="#projects">Projects</a></li>
-                    <li className="nav-link"><a href="#courses">Courses</a></li>
+                    <li className="nav-link"><a href="#certifications">Certifications</a></li>
                     <li className="nav-link"><a href="#achievements">Achievements</a></li>
                     <li className="nav-link"><a href="#contact">Contact</a></li>
                 </ul>
@@ -67,7 +67,7 @@ export default function Navbar() {
                 <ul id="mobile-menu" className={mobileMenuActive ? "nav-list-1": "nav-list-0"}>
                     <li><a href="#aboutme">About Me</a></li>
                     <li><a href="#projects">Projects</a></li>
-                    <li><a href="#courses">Courses</a></li>
+                    <li><a href="#certifications">Certifications</a></li>
                     <li><a href="#achievements">Achievements</a></li>
                     <li><a href="#contact">Contact</a></li>
 

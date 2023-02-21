@@ -52,6 +52,11 @@ button {
 	outline: inherit;
 }
 
+.remark {
+    font-size: 14px;
+    font-style: italic;
+}
+
 .a-icon {
     margin: 0 1em 0 0;
 }
@@ -111,12 +116,20 @@ button {
 
 /* mobile view */
 @media (max-width: 1000px) {
+    h1 {
+        font-size: 32px;
+    }
+
     h2 {
         font-size: 20px;
     }
 
     p {
         font-size: 16px;
+    }
+
+    .remark {
+        font-size: 12px;
     }
 
     .content-area {
