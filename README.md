@@ -15,7 +15,6 @@ Focuses of this personal project:
 4. Gain additional experience in front-end development
 
 ### TODO:
-1. Add events section
-2. Improve descriptions
-3. Small misc UI changes
-4. Add EmailJS to contact
+1. Improve descriptions
+2. Small misc UI changes
+3. Add EmailJS to contact
