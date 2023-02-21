@@ -19,7 +19,7 @@ export default function Projects() {
         <section id="projects" ref={ref}>
             <div className="content-area">
                 <div className={`section-header ${inView ? "projects-header-1" : "projects-header-0"}`}>
-                    <h1>Projects</h1>
+                    <h1 className="center">Projects</h1>
                     <span>
                         <img className="section-cube" src={iconCube} alt="cube" />
                         <img className="section-cube" src={iconCube} alt="cube" />

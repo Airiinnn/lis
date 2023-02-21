@@ -20,7 +20,7 @@ export default function Contact() {
         <section id="contact" ref={ref}>
             <div id="contact-container" className={inView ? "contact-1" : "contact-0"}>
                 <div className="section-header">
-                    <h1>Contact</h1>
+                    <h1 className="center">Contact</h1>
                     <img className="section-cube" src={iconCube} alt="cube" />
                     <p className="center">Currently looking for internship / freelance opportunities, but my inbox is always open for anything. Feel free to say hi or ask any questions, I'll do my best to get back to you!</p>
                 </div>

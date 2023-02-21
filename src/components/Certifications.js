@@ -19,7 +19,7 @@ export default function Certifications() {
         <section id="certifications" ref={ref}>
             <div className="content-area">
                 <div className={`section-header ${inView ? "certifications-header-1" : "certifications-header-0"}`}>
-                    <h1>Certifications & Courses</h1>
+                    <h1 className="center">Certifications & Courses</h1>
                     <span>               
                         <img className="section-cube" src={iconCube} alt="cube" />
                         <img className="section-cube" src={iconCube} alt="cube" />
