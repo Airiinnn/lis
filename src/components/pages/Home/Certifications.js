@@ -2,12 +2,12 @@
 import { useInView } from 'react-intersection-observer';
 
 // Styling
-import "../assets/styles/certifications.css"
+import "../../../styles/certifications.css"
 
 // Data
 import Certification from "./Certification.js"
-import iconCube from "../assets/images/icons/cube-light.png"
-import { certifications } from "../data.js";
+import iconCube from "../../../images/icons/cube-light.png"
+import { certifications } from "../../../data.js";
 
 export default function Certifications() {
     const { ref, inView } = useInView({

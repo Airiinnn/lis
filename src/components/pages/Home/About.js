@@ -2,13 +2,13 @@
 import { useEffect } from "react";
 
 // Styling
-import "../assets/styles/about.css"
+import "../../../styles/about.css"
 
 // Data
-import iconGitHub from "../assets/images/icons/github-light.png";
-import iconLinkedIn from "../assets/images/icons/linkedin-light.png";
-import iconMail from "../assets/images/icons/mail-light.png";
-import imgAboutMe from "../assets/images/about-me.png";
+import iconGitHub from "../../../images/icons/github-light.png";
+import iconLinkedIn from "../../../images/icons/linkedin-light.png";
+import iconMail from "../../../images/icons/mail-light.png";
+import imgAboutMe from "../../../images/about-me.png";
 
 export default function About() {
     useEffect(() => {

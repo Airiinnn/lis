@@ -2,10 +2,10 @@
 import { useState, useEffect } from "react";
 
 // Styling
-import "../assets/styles/navbar.css"
+import "../styles/navbar.css"
 
 // Data
-import iconCube from "../assets/images/icons/cube-pink.png"
+import iconCube from "../images/icons/cube-pink.png"
 
 export default function Navbar() {
     const [mobileMenuActive, setMobileMenuActive] = useState(false);
@@ -31,7 +31,7 @@ export default function Navbar() {
     return (
         <header id="navbar">
             <div id="nav-left">
-                <a href="#about">
+                <a href="/#about">
                     <div id="nav-icon">
                         <img src={iconCube} alt="cube" className="icon" />
                         <span id="nav-text" className="bold">lis</span>
@@ -41,17 +41,17 @@ export default function Navbar() {
             
             <nav id="nav-middle">
                 <ul id="nav-links">
-                    <li className="nav-link"><a href="#aboutme">About Me</a></li>
-                    <li className="nav-link"><a href="#projects">Projects</a></li>
-                    <li className="nav-link"><a href="#certifications">Certifications</a></li>
-                    <li className="nav-link"><a href="#achievements">Achievements</a></li>
-                    <li className="nav-link"><a href="#contact">Contact</a></li>
+                    <li className="nav-link"><a href="/#aboutme">About Me</a></li>
+                    <li className="nav-link"><a href="/#projects">Projects</a></li>
+                    <li className="nav-link"><a href="/#certifications">Certifications</a></li>
+                    <li className="nav-link"><a href="/#achievements">Achievements</a></li>
+                    <li className="nav-link"><a href="/#contact">Contact</a></li>
                 </ul>
             </nav>
 
             <div id="nav-right">
                 <div className="resume">
-                    <a className="resume-button-a" href="resume.pdf" >
+                    <a className="resume-button-a" href="/resume.pdf" >
                         <div className="resume-button">
                             <p>Resume</p>                                
                         </div>
@@ -65,14 +65,14 @@ export default function Navbar() {
                 <div id="bar-3" className="bar"></div>
 
                 <ul id="mobile-menu" className={mobileMenuActive ? "nav-list-1": "nav-list-0"}>
-                    <li><a href="#aboutme">About Me</a></li>
-                    <li><a href="#projects">Projects</a></li>
-                    <li><a href="#certifications">Certifications</a></li>
-                    <li><a href="#achievements">Achievements</a></li>
-                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="/#aboutme">About Me</a></li>
+                    <li><a href="/#projects">Projects</a></li>
+                    <li><a href="/#certifications">Certifications</a></li>
+                    <li><a href="/#achievements">Achievements</a></li>
+                    <li><a href="/#contact">Contact</a></li>
 
                     <li className="resume">
-                        <a className="resume-button-a" href="resume.pdf" >
+                        <a className="resume-button-a" href="/resume.pdf" >
                             <div className="resume-button">
                                 <p>Resume</p>
                             </div>

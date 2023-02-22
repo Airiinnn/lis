@@ -9,11 +9,11 @@ import 'swiper/css/pagination';
 import { useInView } from 'react-intersection-observer';
 
 // Styling
-import "../assets/styles/achievements.css"
+import "../../../styles/achievements.css"
 
 // Data
-import iconCube from "../assets/images/icons/cube-light.png"
-import { achievements } from "../data.js";
+import iconCube from "../../../images/icons/cube-light.png"
+import { achievements } from "../../../data.js";
 
 export default function Achievements() {
     const { ref, inView } = useInView({

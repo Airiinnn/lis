@@ -1,13 +1,16 @@
 // Intersection Observer API
 import { useInView } from 'react-intersection-observer';
 
+// React Router
+import { Link } from "react-router-dom";
+
 // Styling
-import "../assets/styles/projects.css"
+import "../../../styles/projects.css"
 
 // Data
 import ProjectFeatured from "./ProjectFeatured";
-import iconCube from "../assets/images/icons/cube-light.png"
-import { projectsFeatured } from "../data.js";
+import iconCube from "../../../images/icons/cube-light.png"
+import { projectsFeatured } from "../../../data.js";
 
 export default function Projects() {
     const { ref, inView } = useInView({
@@ -45,11 +48,11 @@ export default function Projects() {
                 </div>
                 
                 <div id="view-more" className={inView ? "projects-header-1" : "projects-header-0"}>
-                    <a id="view-more-button-a" href="#projects" >
+                    <Link to="/projects" >
                         <div id="view-more-button">
                             <p>View All (soon)</p>
                         </div>
-                    </a>
+                    </Link>
                 </div>
             </div>       
         </section>

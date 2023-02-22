@@ -1,22 +1,22 @@
 // project imgs
-import pLis from "./assets/images/projects/lis.png";
-import pProjectNavex from "./assets/images/projects/projectnavex.png";
-import pTheAmazingRace from "./assets/images/projects/theamazingrace.png";
+import pLis from "./images/projects/lis.png";
+import pProjectNavex from "./images/projects/projectnavex.png";
+import pTheAmazingRace from "./images/projects/theamazingrace.png";
 
 // certification imgs
-import cUnsupervisedLearningPython from "./assets/images/certifications/unsupervised-learning-python.png";
-import cMachineLearningScikitLearn from "./assets/images/certifications/machine-learning-scikit-learn.png";
-import cStatisticalThinkingPython1 from "./assets/images/certifications/statistical-thinking-python-1.png";
-import cPythonDataScienceToolbox1 from "./assets/images/certifications/python-data-science-toolbox-1.png";
-import cIntroSpreadsheets from "./assets/images/certifications/introduction-to-spreadsheets.png";
-import cIntroDataScience from "./assets/images/certifications/introduction-to-data-science.png";
-import cIntroMongoDB from "./assets/images/certifications/introduction-to-mongodb.png";
-import cIntermediateSQL from "./assets/images/certifications/intermediate-sql.png";
-import cIntroSQL from "./assets/images/certifications/introduction-to-sql.png";
-import cIntermediatePython from "./assets/images/certifications/intermediate-python.png";
-import cIntroPython from "./assets/images/certifications/introduction-to-python.png";
-import cIntermediateR from "./assets/images/certifications/intermediate-r.png";
-import cIntroR from "./assets/images/certifications/introduction-to-r.png";
+import cUnsupervisedLearningPython from "./images/certifications/unsupervised-learning-python.png";
+import cMachineLearningScikitLearn from "./images/certifications/machine-learning-scikit-learn.png";
+import cStatisticalThinkingPython1 from "./images/certifications/statistical-thinking-python-1.png";
+import cPythonDataScienceToolbox1 from "./images/certifications/python-data-science-toolbox-1.png";
+import cIntroSpreadsheets from "./images/certifications/introduction-to-spreadsheets.png";
+import cIntroDataScience from "./images/certifications/introduction-to-data-science.png";
+import cIntroMongoDB from "./images/certifications/introduction-to-mongodb.png";
+import cIntermediateSQL from "./images/certifications/intermediate-sql.png";
+import cIntroSQL from "./images/certifications/introduction-to-sql.png";
+import cIntermediatePython from "./images/certifications/intermediate-python.png";
+import cIntroPython from "./images/certifications/introduction-to-python.png";
+import cIntermediateR from "./images/certifications/intermediate-r.png";
+import cIntroR from "./images/certifications/introduction-to-r.png";
 
 export const projectsFeatured = [
     {
