@@ -2,7 +2,7 @@
 import { useEffect } from "react";
 
 // Styling
-import "../../../styles/about.css"
+import "../../../styles/about.css";
 
 // Data
 import iconGitHub from "../../../images/icons/github-light.png";

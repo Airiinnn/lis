@@ -5,11 +5,11 @@ import { useInView } from 'react-intersection-observer';
 import { Link } from "react-router-dom";
 
 // Styling
-import "../../../styles/projects.css"
+import "../../../styles/projects.css";
 
 // Data
 import ProjectFeatured from "./ProjectFeatured";
-import iconCube from "../../../images/icons/cube-light.png"
+import iconCube from "../../../images/icons/cube-light.png";
 import { projectsFeatured } from "../../../data.js";
 
 export default function Projects() {
@@ -48,7 +48,7 @@ export default function Projects() {
                 </div>
                 
                 <div id="view-more" className={inView ? "projects-header-1" : "projects-header-0"}>
-                    <Link to="/projects" >
+                    <Link to="/projects">
                         <div id="view-more-button">
                             <p>View All (soon)</p>
                         </div>

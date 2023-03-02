@@ -2,13 +2,13 @@
 import { useInView } from 'react-intersection-observer';
 
 // Styling
-import "../../../styles/contact.css"
+import "../styles/contact.css";
 
 // Data
-import iconCube from "../../../images/icons/cube-light.png"
-import iconMail from "../../../images/icons/mail-light.png"
-import iconLinkedIn from "../../../images/icons/linkedin-light.png"
-import iconGitHub from "../../../images/icons/github-light.png"
+import iconCube from "../images/icons/cube-light.png";
+import iconMail from "../images/icons/mail-light.png";
+import iconLinkedIn from "../images/icons/linkedin-light.png";
+import iconGitHub from "../images/icons/github-light.png";
 
 export default function Contact() {
     const { ref, inView } = useInView({

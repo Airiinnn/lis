@@ -11,8 +11,7 @@
     --gray: #364248;
     --white: #ffffff;
     font-family: 'Montserrat', sans-serif;
-    text-align: justify;
-    text-justify: inter-word;
+    text-align: left;
     color: var(--white);
     scroll-behavior: smooth;
 }
@@ -133,7 +132,7 @@ button {
     }
 
     .content-area {
-        width: 80%;
+        width: 90%;
     }
 
     .section-header {

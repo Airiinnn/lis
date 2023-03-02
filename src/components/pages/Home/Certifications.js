@@ -2,11 +2,11 @@
 import { useInView } from 'react-intersection-observer';
 
 // Styling
-import "../../../styles/certifications.css"
+import "../../../styles/certifications.css";
 
 // Data
-import Certification from "./Certification.js"
-import iconCube from "../../../images/icons/cube-light.png"
+import Certification from "./Certification.js";
+import iconCube from "../../../images/icons/cube-light.png";
 import { certifications } from "../../../data.js";
 
 export default function Certifications() {

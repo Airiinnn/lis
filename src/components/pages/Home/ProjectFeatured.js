@@ -2,8 +2,8 @@
 import { useInView } from 'react-intersection-observer';
 
 // Data
-import iconWebsite from "../../../images/icons/worldwide-light.png"
-import iconGitHub from "../../../images/icons/github-light.png"
+import iconWebsite from "../../../images/icons/worldwide-light.png";
+import iconGitHub from "../../../images/icons/github-light.png";
 
 export default function ProjectFeatured({index, title, subtitle, website, github, description, tech, img, type}) {
     const { ref, inView } = useInView({

@@ -25,6 +25,7 @@ export const projectsFeatured = [
         website: "https://projectnavex.com/",
         github: "https://github.com/projectnavex/project-navex",
         description: "JavaScript based Web Application that utilises Google Maps and EPSG APIs to automate repetitive manual tasks during NDS creation, reducing time required to create one by up to 75%.",
+        tech: "JavaScript, HTML, CSS, APIs",
         img: pProjectNavex,
         type: "Personal Project",
     },
@@ -35,7 +36,7 @@ export const projectsFeatured = [
         website: "https://alex.lis.fyi/",
         github: "https://github.com/Airiinnn/lis",
         description: "Personal porfolio website to consolidate all my programming related projects and achievements. Developed using React, with UIUX considerations in mind.",
-        tech: "React, JavaScript, JSX, CSS, Swiper",
+        tech: "React, JSX, CSS",
         img: pLis,
         type: "Personal Project",
     },
@@ -214,5 +215,97 @@ export const achievements = [
     {
         name: "Hacktoberfest 2019",
         award: "Participant",
+    },
+]
+
+export const projectsFull = [
+    {
+        project: "lis - Personal Programming Portfolio",
+        year: "2023",
+        technologies: "React, JSX, CSS",
+        affiliation: "Personal (Solo)",
+        website: "https://alex.lis.fyi/",
+        github: "https://github.com/Airiinnn/lis",
+    },
+
+    {
+        project: "Project Navex - NDS Generator",
+        year: "2022",
+        technologies: "JavaScript, HTML, CSS, APIs",
+        affiliation: "Personal (Duo)",
+        website: "https://projectnavex.com/",
+        github: "https://github.com/projectnavex/project-navex",
+    },
+
+    {
+        project: "Introduction to Data Science, Basic Statistics Chapter",
+        year: "2021",
+        technologies: "Kotlin, WordPress, S2",
+        affiliation: "NM DEV Internship",
+        website: "https://nm.education/courses/introduction-to-data-science/",
+        github: null,
+    },
+
+    {
+        project: "Google Foobar",
+        year: "2021",
+        technologies: "C++",
+        affiliation: "Personal (Solo)",
+        website: null,
+        github: "https://github.com/Airiinnn/foobar",
+    },
+
+    {
+        project: "The Amazing Race - Intro to Computing Game",
+        year: "2020",
+        technologies: "Python, Flask, SQL, HTML, CSS",
+        affiliation: "BuildingBloCS 2020",
+        website: null,
+        github: "https://github.com/Airiinnn/amazing-race",
+    },
+
+    {
+        project: "Dunman App - School App",
+        year: "2020",
+        technologies: "Python, Flask, SQL, HTML, CSS",
+        affiliation: "Dunman High School",
+        website: null,
+        github: "https://github.com/Airiinnn/dunmanapp",
+    },
+
+    {
+        project: "Flask Workshop",
+        year: "2020",
+        technologies: "Python, Flask, HTML, CSS",
+        affiliation: "FOSSASIA 2020",
+        website: null,
+        github: "https://github.com/Airiinnn/flaskworkshop2020",
+    },
+
+    {
+        project: "Autonomous Toy Racing Car",
+        year: "2019",
+        technologies: "Python, Raspberry Pi",
+        affiliation: "A-Level Project Work",
+        website: null,
+        github: null,
+    },
+
+    {
+        project: "FoodKoala",
+        year: "2019",
+        technologies: "Python, Flask, SQL, HTML, CSS",
+        affiliation: "CXA Hackathon 2019 (Group)",
+        website: null,
+        github: "https://github.com/Airiinnn/foodkoala",
+    },
+
+    {
+        project: "To-Do List",
+        year: "2019",
+        technologies: "Python, Flask, SQL, HTML, CSS",
+        affiliation: "Personal (Solo)",
+        website: null,
+        github: "https://github.com/Airiinnn/todolist",
     },
 ]

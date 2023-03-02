@@ -2,10 +2,10 @@
 import { useInView } from 'react-intersection-observer';
 
 // Styling
-import "../../../styles/aboutme.css"
+import "../../../styles/aboutme.css";
 
 // Data
-import iconCube from "../../../images/icons/cube-light.png"
+import iconCube from "../../../images/icons/cube-light.png";
 import iconMail from "../../../images/icons/mail-light.png";
 
 export default function AboutMe() {
