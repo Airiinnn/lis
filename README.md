@@ -2,7 +2,7 @@
 
 Live at [alex.lis.fyi](https://alex.lis.fyi/)!
 
-![lis](src/assets/images/projects/lis.png)
+![lis](src/images/projects/lis.png)
 
 ## Personal Portfolio Website (Work in progress)
 
