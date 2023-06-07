@@ -79,7 +79,7 @@ export default function AboutMe() {
                                 </li>
                                 <li className="education-li">
                                     <p className="secondary">National University of Singapore</p>
-                                    <p>Bachelor of Compuring in Computer Science<span className="duration">2023 - 2027</span></p>
+                                    <p>Bachelor of Computing in Computer Science<span className="duration">2023 - 2027</span></p>
                                 </li>
                             </ul>
                         </div>
