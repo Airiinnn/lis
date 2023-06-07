@@ -34,7 +34,7 @@ export default function AboutMe() {
                             <br /><br />
                             I am also interested in <b className="secondary">Competitive Programming</b> which probably stems from my love of puzzle games since young. I have dabbled in a few competitions over the years and I intend on translating this current hobby into application performance optimization skills.
                             <br /><br />
-                            Currently, I am working on a few projects involving <b className="secondary">Path Finding Algorithms</b>, <b className="secondary">Telegram API</b> and <b className="secondary">Optical Character Recognition</b>. I am planning to explore more into Artificial Intelligence projects in the very near future so stay tuned. :)
+                            Currently interning as a <b className="secondary">Software Developer</b> at Neurowyzr. :)
                         </p>
                         
                         <div id="aboutme-contact">
@@ -78,8 +78,8 @@ export default function AboutMe() {
                                     <p>A-Level H2 Computing<span className="duration">2019 - 2020</span></p>
                                 </li>
                                 <li className="education-li">
-                                    <p className="secondary">Nanyang Technological University</p>
-                                    <p>Bachelor of Engineering in Computer Science with a Second Major in Business<span className="duration">2023 - 2027</span></p>
+                                    <p className="secondary">National University of Singapore</p>
+                                    <p>Bachelor of Compuring in Computer Science<span className="duration">2023 - 2027</span></p>
                                 </li>
                             </ul>
                         </div>
