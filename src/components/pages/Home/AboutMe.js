@@ -32,9 +32,7 @@ export default function AboutMe() {
                             <br /><br />
                             Over the past 4 years, I have gained a lot of experience in <b className="secondary">Web Development</b>, starting with Web Applications built with <b className="secondary">Flask</b>, <b className="secondary">HTML</b> and <b className="secondary">CSS</b> and transitioning to Apps built with <b className="secondary">JavaScript</b> and popular front-end frameworks like <b className="secondary">React</b>.
                             <br /><br />
-                            I am also interested in <b className="secondary">Competitive Programming</b> which probably stems from my love of puzzle games since young. I have dabbled in a few competitions over the years and I intend on translating this current hobby into application performance optimization skills.
-                            <br /><br />
-                            Currently interning as a <b className="secondary">Software Developer</b> at Neurowyzr. :)
+                            I am also interested in <b className="secondary">Competitive Programming</b> which stems from my love of puzzle games since young. I have dabbled in a few competitions over the years and I intend on translating this current hobby into application performance optimization skills.
                         </p>
                         
                         <div id="aboutme-contact">
