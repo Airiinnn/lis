@@ -28,9 +28,9 @@ export default function AboutMe() {
                         <h2 className="primary">Get to know me</h2>
 
                         <p id="desc-text">
-                            Hello! My name is <b className="secondary">Alexander Liswandy</b> and I am Computer Science student. I began my programming journey in 2019 during my JC years at Dunman High School, Singapore, taking the H2 Computing subject for GCE A-Level.
+                            Hello! My name is <b className="secondary">Alexander Liswandy</b> and I am a Y1 NUS Computer Science student. I began my programming journey in 2019 during my JC years at Dunman High School, Singapore, taking the H2 Computing subject for GCE A-Level.
                             <br /><br />
-                            Over the past 4 years, I have gained a lot of experience in <b className="secondary">Web Development</b>, starting with Web Applications built with <b className="secondary">Flask</b>, <b className="secondary">HTML</b> and <b className="secondary">CSS</b> and transitioning to Apps built with <b className="secondary">JavaScript</b> and popular front-end frameworks like <b className="secondary">React</b>.
+                            Throughout the years, I have gained a lot of experience in <b className="secondary">Web Development</b>, starting with Web Applications built with <b className="secondary">Flask</b>, <b className="secondary">HTML</b> and <b className="secondary">CSS</b> and transitioning to Apps built with <b className="secondary">ReactJS</b>.
                             <br /><br />
                             I am also interested in <b className="secondary">Competitive Programming</b> which stems from my love of puzzle games since young. I have dabbled in a few competitions over the years and I intend on translating this current hobby into application performance optimization skills.
                         </p>
@@ -52,12 +52,17 @@ export default function AboutMe() {
                             <div id="skills-container">
                                 <div className={`skill-box ${inView ? "aboutme-right-1" : "aboutme-right-0"}`}>
                                     <p className="bold">Front End</p>
-                                    <p>React, HTML, CSS</p>
+                                    <p>React, HTML, CSS, GTK</p>
                                 </div>
 
                                 <div className={`skill-box ${inView ? "aboutme-right-1" : "aboutme-right-0"}`}>
                                     <p className="bold">Back End</p>
-                                    <p>JavaScript, Python, C++, Flask, SQL, MongoDB</p>
+                                    <p>FastAPI, Flask, SQL, MongoDB</p>
+                                </div>
+
+                                <div className={`skill-box ${inView ? "aboutme-right-1" : "aboutme-right-0"}`}>
+                                    <p className="bold">Languages</p>
+                                    <p>TypeScript / JavaScript, Java, Python, Scala, C++</p>
                                 </div>
 
                                 <div className={`skill-box ${inView ? "aboutme-right-1" : "aboutme-right-0"}`}>

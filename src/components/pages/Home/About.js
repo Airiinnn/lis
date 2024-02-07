@@ -118,7 +118,7 @@ export default function About() {
 
         // * TYPING SIMULATION LOOP
         // settings 
-        const items = ['Computer Science Student', 'Web Developer', 'Motivated Self-Learner'];
+        const items = ['Computer Science Student', 'Software Developer', 'Motivated Self-Learner'];
         const delSpeed = 50;
         const typeSpeed = 100;
 
@@ -169,7 +169,9 @@ export default function About() {
                         <p>Hi! I am</p>
                         <h1>Alexander Liswandy</h1>
                         <h2><span id="roles"></span><span className="line-blink"></span></h2>
-                        <p id="short-desc">Passionate and self-driven programming & tech enthusiast. Started coding in 2019. Experience in Web Development and Competitive Programming Algorithms. Currently exploring Path Finding Algorithms and Optical Character Recognition. Looking to gain knowledge and experience in Software Development and Artificial Intelligence.</p>
+                        {/*<p id="short-desc">Passionate and self-driven programming & tech enthusiast. Started coding in 2019. Experience in Web Development and Competitive Programming Algorithms. Currently exploring Path Finding Algorithms and Optical Character Recognition. Looking to gain knowledge and experience in Software Development and Artificial Intelligence.</p>*/}
+                        <p id="short-desc">
+                            Y1 NUS Computer Science. Passionate and self-driven tech enthusiast since 2019. Experience in Fullstack Web Development. Looking to explore a specialization in Software Development and Algorithms.</p>
                         <div id="about-links">
                             <a href="https://github.com/Airiinnn" className="a-icon"><img src={iconGitHub} alt="GitHub" className="icon" /></a>
                             <a href="https://www.linkedin.com/in/alexanderliswandy/" className="a-icon"><img src={iconLinkedIn} alt="LinkedIn" className="icon" /></a>

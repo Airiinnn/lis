@@ -168,6 +168,11 @@ export const achievements = [
     },
 
     {
+        name: "Hack&Roll 2024",
+        award: "Participant",
+    },
+
+    {
         name: "Google Code-In 2020",
         award: "Participant",
     },
