@@ -225,6 +225,24 @@ export const achievements = [
 
 export const projectsFull = [
     {
+        project: "Planner++ - Personal Planner (In development)",
+        year: "2024",
+        technologies: "React, Redux, TSX",
+        affiliation: "Personal (Solo)",
+        website: null,
+        github: "https://github.com/Airiinnn/plannerpp-app",
+    },
+
+    {
+        project: "Stonks - Crypto Hardware Wallet",
+        year: "2024",
+        technologies: "Python, Gtk, Raspberry Pi",
+        affiliation: "NUS Hack&Roll 2024 (Group)",
+        website: null,
+        github: "https://github.com/orgs/hacknroll-stonks/repositories",
+    },
+
+    {
         project: "lis - Personal Programming Portfolio",
         year: "2023",
         technologies: "React, JSX, CSS",

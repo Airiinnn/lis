@@ -133,16 +133,20 @@ export default function About() {
                 setTimeout(deleteTxt, delSpeed);
             } else if (charIndex < items[index].length + 1) { // continue typing
                 const addChar = items[index].substring(-items[index].length, charIndex);
-                document.getElementById("roles").innerHTML = addChar;
+                try {
+                    document.getElementById("roles").innerHTML = addChar;
+                } catch(e) {}
                 charIndex += 1;
                 setTimeout(typing, typeSpeed); 
             }
-        };
+        }
 
         function deleteTxt() {
             if (charIndex >= 0) { // continue deleting
                 const delChar = items[index].substring(-items[index].length, charIndex);
-                document.getElementById("roles").innerHTML = delChar;
+                try {
+                    document.getElementById("roles").innerHTML = delChar;
+                } catch(e) {}
                 charIndex -= 1;
                 setTimeout(deleteTxt, delSpeed); 
             } else if (index <= items.length -1) { // next word
@@ -151,7 +155,7 @@ export default function About() {
             } else { // send to typing to loop back
                 typing();
             }
-        }; 
+        }
 
         typing();
     }, []);
@@ -183,8 +187,6 @@ export default function About() {
                 <div id="about-right">
                     <img src={imgAboutMe} alt="About Me"/>
                 </div>
-
-                <script src="/src/cube.js"></script>
             </div>
         </section>
     );
