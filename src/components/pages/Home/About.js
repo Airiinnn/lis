@@ -125,6 +125,8 @@ export default function About() {
         let index = 0;
         let charIndex = 0;
 
+        document.getElementById("roles").innerHTML = "";
+
         function typing() {
             if (index === items.length) { // loop back
                 index = 0;

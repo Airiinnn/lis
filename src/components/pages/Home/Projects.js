@@ -47,13 +47,13 @@ export default function Projects() {
                     ))}
                 </div>
                 
-                <div id="view-more" className={inView ? "projects-header-1" : "projects-header-0"}>
-                    <Link to="/projects">
-                        <div id="view-more-button">
-                            <p>View All (soon)</p>
-                        </div>
-                    </Link>
-                </div>
+                {/*<div id="view-more" className={inView ? "projects-header-1" : "projects-header-0"}>*/}
+                {/*    <Link to="/projects">*/}
+                {/*        <div id="view-more-button">*/}
+                {/*            <p>View All (soon)</p>*/}
+                {/*        </div>*/}
+                {/*    </Link>*/}
+                {/*</div>*/}
             </div>       
         </section>
     );

@@ -26,7 +26,8 @@ export default function ProjectsFull() {
                     <p className="remark center">Serving Full-Time National Service in 2021 & 2022, hence the lack of projects.</p>
                 </div>
 
-                <table id="projectsfull-list" className={inView ? "projectsfull-slide-1" : "projectsfull-slide-0"}>
+                {/*<table id="projectsfull-list" className={inView ? "projectsfull-slide-1" : "projectsfull-slide-0"}>*/}
+                <table id="projectsfull-list">
                     <thead>
                         <tr>
                             <th>Year</th>
