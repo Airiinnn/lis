@@ -2,7 +2,7 @@
 import { useInView } from 'react-intersection-observer';
 
 // React Router
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 
 // Styling
 import "../../../styles/projects.css";
