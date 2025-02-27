@@ -27,7 +27,7 @@ export default function Projects() {
                         <img className="section-cube" src={iconCube} alt="cube" />
                         <img className="section-cube" src={iconCube} alt="cube" />
                     </span>
-                    <p className="center">These are some of featured projects that I have worked on.</p>
+                    <p className="center">These are some featured projects that I have worked on.</p>
                 </div>
                 
                 <div id="project-list">

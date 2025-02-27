@@ -177,7 +177,7 @@ export default function About() {
                         <h2><span id="roles"></span><span className="line-blink"></span></h2>
                         {/*<p id="short-desc">Passionate and self-driven programming & tech enthusiast. Started coding in 2019. Experience in Web Development and Competitive Programming Algorithms. Currently exploring Path Finding Algorithms and Optical Character Recognition. Looking to gain knowledge and experience in Software Development and Artificial Intelligence.</p>*/}
                         <p id="short-desc">
-                            Y1 NUS Computer Science. Passionate and self-driven tech enthusiast since 2019. Experience in Fullstack Web Development. Looking to explore a specialization in Software Development and Algorithms.</p>
+                            Y2 NUS Computer Science. Full-stack web developer. Looking to explore a specialization in Software Development, Parallel Computing and Algorithms.</p>
                         <div id="about-links">
                             <a href="https://github.com/Airiinnn" className="a-icon"><img src={iconGitHub} alt="GitHub" className="icon" /></a>
                             <a href="https://www.linkedin.com/in/alexanderliswandy/" className="a-icon"><img src={iconLinkedIn} alt="LinkedIn" className="icon" /></a>

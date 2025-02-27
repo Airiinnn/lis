@@ -2,6 +2,7 @@
 import pLis from "./images/projects/lis.png";
 import pProjectNavex from "./images/projects/projectnavex.png";
 import pTheAmazingRace from "./images/projects/theamazingrace.png";
+import pActionsPerMinute from "./images/projects/actionsperminute.png";
 
 // certification imgs
 import cUnsupervisedLearningPython from "./images/certifications/unsupervised-learning-python.png";
@@ -20,11 +21,22 @@ import cIntroR from "./images/certifications/introduction-to-r.png";
 
 export const projectsFeatured = [
     {
+        title: "actions per minute",
+        subtitle: "Custom Keyboard Hub Web Application",
+        website: null,
+        github: "https://github.com/orbital-apm",
+        description: "Comprehensive hub for keyboard enthusiasts using NextJS, FastAPI, and PostgreSQL, implementing best practices to create a robust, full-stack application with guides, tools, and a marketplace.",
+        tech: "NextJS, FastAPI, PostgreSQL",
+        img: pActionsPerMinute,
+        type: "Personal Project",
+    },
+
+    {
         title: "Project Navex",
         subtitle: "Navigational Data Sheet (NDS) Generator Web Application",
         website: "https://projectnavex.com/",
         github: "https://github.com/projectnavex/project-navex",
-        description: "JavaScript based Web Application that utilises Google Maps and EPSG APIs to automate repetitive manual tasks during NDS creation, reducing time required to create one by up to 75%.",
+        description: "JavaScript based Web Application that utilises Google Maps and EPSG APIs to automate repetitive manual tasks during NDS creation, reducing time required to create one by over 90%.",
         tech: "JavaScript, HTML, CSS, APIs",
         img: pProjectNavex,
         type: "Personal Project",
